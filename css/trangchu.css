@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+}
+header {
+    background-color: #60B847;
+    height: 162px;
+    width:unset;
+    margin: 0;
+    display: flex;
+}
+.menu-button {
+    list-style: none;
+    display: flex;
+    line-height: 162px;
+    margin: 0;
+}
+.menu-button-content {
+    size: 24px;
+    color: white;
+    display: block;
+    padding: 0 20px;
+}
+/* .logo {
+    line-height: 162px;
+} */
+.logo-img {
+    width: 170px;
+    height: auto;
+    margin: 0 50px;
+}
+.search {
+    margin-right: 48px;
+}
+.search-button {
+    display: block;
+    width: 300px;
+    height: 50px;
+    background: white;
+    border-radius: 20px;
+    margin-top: 54px;
+}
+/* body lien he */
+.list-contact {
+    list-style: none;
+}
+.title {
+    font-size: 32px;
+    margin-left: 124px;
+    margin-top: 60px;
+    
+}
+.list-contact {
+    margin-left: 221px;
+    font-size: 28px;
+    font-weight: 900;
+}
+.list-noidung-title {
+    color: #a1ad9e;
+}
+.list-noidung-title-chi-tiet {
+    font-weight: #203F17;
+}
+.list-contact-content {
+    padding: 1px 0;
+}
+.list-noidung {
+    line-height: 0.5; 
+}
+/* footer */
+footer {
+    background-color: #60B847;
+    margin: 0;
+    padding: 20px 0;
+    display: flex;
+}
+.left {
+    margin-left: 65px;
+}
+.left-content-text {
+    font-size: 18px;
+    color: white;
+    
+}
+.left-icon-button {
+    display:block;
+    width: 35px;
+    color: white;
+}
