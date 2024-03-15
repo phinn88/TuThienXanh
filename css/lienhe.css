@@ -4,40 +4,45 @@ body {
 header {
     background-color: #60B847;
     height: 162px;
-    width:unset;
+    width: 100%;
     margin: 0;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .menu-button {
     list-style: none;
     display: flex;
     line-height: 162px;
-    margin: 0;
+    margin: auto;
+    flex: 1;
 }
 .menu-button-content {
-    size: 24px;
     color: white;
     display: block;
     padding: 0 20px;
+    font-size: 1.5vw;
 }
-/* .logo {
-    line-height: 162px;
-} */
+.logo {
+    flex: 0.8;
+}
 .logo-img {
-    width: 170px;
+    max-width: 75%;
     height: auto;
-    margin: 0 50px;
+    margin: 0 10%;
 }
 .search {
-    margin-right: 48px;
+    flex: 1;
+    display: flex;
+    align-items: center;
 }
 .search-button {
     display: block;
-    width: 300px;
+    width: 70%;
     height: 50px;
     background: white;
-    border-radius: 20px;
-    margin-top: 54px;
+    border-radius: 22.5px;
+    margin: auto;
 }
 /* body lien he */
 .list-contact {
