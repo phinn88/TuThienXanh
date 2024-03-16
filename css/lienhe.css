@@ -57,11 +57,18 @@ header {
 .list-contact {
     list-style: none;
 }
+.title-box {
+    display: flex;
+    margin-left: 124px;
+}
 .title {
     font-size: 32px;
-    margin-left: 124px;
     margin-top: 60px;
-    
+    /* float: left; */
+    color: rgb(32, 63, 23);
+}
+.title-link {
+    color: rgba(32, 63, 23, 0.7);
 }
 .list-contact {
     margin-left: 221px;
@@ -69,10 +76,10 @@ header {
     font-weight: 900;
 }
 .list-noidung-title {
-    color: #a1ad9e;
+    color: rgba(32, 63, 23,0.45);
 }
 .list-noidung-title-chi-tiet {
-    font-weight: #203F17;
+    color: rgb(32, 63, 23);
 }
 .list-contact-icon {
     color: #60B847;
