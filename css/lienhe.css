@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    font-family:"Montserrat", 'Times New Roman';
+    font-size: 90%;
 }
 header {
     background-color: #60B847;
@@ -143,7 +145,7 @@ footer {
 }
 .right-list-content{
     color:white;
-    font-family:"Montserrat", sans-serif;
+
 }
 .right p{
     color: white;
