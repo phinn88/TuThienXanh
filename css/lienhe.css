@@ -104,6 +104,7 @@ footer {
     margin: 0;
     padding: 20px 0;
     display: flex;
+    flex-flow: row nowrap  ;
 }
 .left {
     margin-left: 50px;
@@ -127,8 +128,9 @@ footer {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    flex: 1 90%;
-    align-self: flex-end;
+    flex: 2 100%;
+    align-self: center;
+    
 }
 .right1 {
     list-style: none;
@@ -149,5 +151,8 @@ footer {
 }
 .right p{
     color: white;
+    position: relative;
+    margin:40px 0px 0px 0px;
+    bottom: 0px;
 }
 /* Gặp nhau cuối năm */
