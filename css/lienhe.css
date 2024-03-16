@@ -104,15 +104,16 @@ footer {
     display: flex;
 }
 .left {
-    margin-left: 65px;
+    margin-left: 50px;
     display: flex;
-    flex-flow: wrap;
-    flex: 1 90%;
+    flex-flow:column nowrap;
+    flex: 1 100%;
 
 }
 .left-content-text {
     font-size: 18px;
     color: white;
+    margin: 16px 0px;
     
 }
 .left-icon-button {
@@ -124,12 +125,15 @@ footer {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    flex: 1 100%;
+    flex: 1 90%;
     align-self: flex-end;
 }
 .right1 {
     list-style: none;
     align-items:inherit;
+    justify-content:right;
+    position:relative;
+    right: -10px;
     
 }
 .right-list-content-icon {
@@ -139,6 +143,7 @@ footer {
 }
 .right-list-content{
     color:white;
+    font-family:"Montserrat", sans-serif;
 }
 .right p{
     color: white;
