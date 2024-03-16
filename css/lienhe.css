@@ -43,6 +43,15 @@ header {
     background: white;
     border-radius: 22.5px;
     margin: auto;
+    position: relative;
+}
+.search-icon {
+    font-size: 28px;
+    color: #60B847;  
+    /* margin-right: 67px; */
+    position: absolute;
+    top: 12px;
+    right: 18px;
 }
 /* body lien he */
 .list-contact {
@@ -65,11 +74,20 @@ header {
 .list-noidung-title-chi-tiet {
     font-weight: #203F17;
 }
+.list-contact-icon {
+    color: #60B847;
+    padding: 10px;
+    position: absolute;
+    top: 35px;
+    left: -60px;
+}
 .list-contact-content {
-    padding: 1px 0;
+    padding: 10px 0;
+    display: flex;
+    position: relative;
 }
 .list-noidung {
-    line-height: 0.5; 
+    line-height: 0.32; 
 }
 /* footer */
 footer {
@@ -87,10 +105,14 @@ footer {
     
 }
 .left-icon-button {
-    display:block;
-    width: 35px;
-    color: white;
+    color: #448332;
+    font-size: 30px;
+    padding-right: 24px;
 }
 .right1 {
     list-style: none;
+}
+.right-list-content-icon {
+    font-size: 32px;
+    color: #448332;
 }
