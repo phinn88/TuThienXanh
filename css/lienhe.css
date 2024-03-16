@@ -105,6 +105,10 @@ footer {
 }
 .left {
     margin-left: 65px;
+    display: flex;
+    flex-flow: wrap;
+    flex: 1 90%;
+
 }
 .left-content-text {
     font-size: 18px;
@@ -116,11 +120,21 @@ footer {
     font-size: 30px;
     padding-right: 24px;
 }
+.right {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 100%;
+    align-self: flex-end;
+}
 .right1 {
     list-style: none;
+    align-items:inherit;
+    
 }
 .right-list-content-icon {
     font-size: 32px;
     color: #448332;
+    margin: 10px 0px;
 }
 /* Gặp nhau cuối năm */
