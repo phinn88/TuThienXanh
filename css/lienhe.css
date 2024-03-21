@@ -2,10 +2,13 @@ body {
     margin: 0;
     font-family:"Montserrat", 'Times New Roman';
     font-size: 90%;
+    background-image: url(/img/star.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 header {
     background-color: #60B847;
-    height: 162px;
+    height: 80px;
     width: 100%;
     margin: 0;
     display: flex;
@@ -15,22 +18,28 @@ header {
 .menu-button {
     list-style: none;
     display: flex;
-    line-height: 162px;
+    line-height: 80px;
     margin: auto;
     flex: 1;
 }
 .menu-button-content {
     color: white;
     display: block;
-    padding: 0 20px;
-    font-size: 1.5vw;
+    padding: 0px 30px;
+    font-size: 1.3vw;
+    font-weight: 520;
+}
+.menu-button-content:hover {
+    color:#60B847;
+    background-color: white;
+    cursor: pointer;
 }
 .logo {
     flex: 0.8;
 }
 .logo-img {
-    max-width: 75%;
-    height: auto;
+    height: 80px;
+    width: auto;
     margin: 0 10%;
 }
 .search {
@@ -75,7 +84,7 @@ header {
 .list-contact {
     margin-left: 221px;
     font-size: 28px;
-    font-weight: 900;
+    font-weight: 700;
 }
 .list-noidung-title {
     color: rgba(32, 63, 23,0.45);
@@ -137,17 +146,20 @@ footer {
     align-items:inherit;
     justify-content:right;
     position:relative;
-    right: -10px;
+    right: 0px;
     
 }
 .right-list-content-icon {
-    font-size: 32px;
+    font-size: 33px;
     color: #448332;
-    margin: 10px 0px;
+    width: 32px;
+    height: auto;
+    padding: 10px 0;
+    margin: 0px 20px;
 }
 .right-list-content{
     color:white;
-
+    font-size: 24px;
 }
 .right p{
     color: white;
