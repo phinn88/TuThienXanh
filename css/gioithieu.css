@@ -10,13 +10,11 @@
     height: 500px;
 }
 .SuMenh-box1 h6 {
-    
     color: #7B7777;
     font-size:20px;
     font-style: italic;
     font-weight:400;
 }
-
 .SuMenh-title{
     color: #60B847;
     font-size: 60px;
@@ -50,20 +48,46 @@
     color: white;
     background-color: #60B847;
     text-wrap: wrap;
-    
 }
 .SuMenh-box2 h6{
     color: white;
     font-size: 20px;
 }
-
 /* MucTieu */
 .MucTieu {
 
 }
 /* QuyTac */
 .QuyTac{
+    margin: 100px 100px;
+    font-family: "Montserrat", sans-serif;
+}
+.QuyTac-title {
+    font-size: 40px;
+    color: #60B847;
+}
+.QuyTac-box1 {
 
+}
+.QuyTac-box1 h6{
+    color: #7B7777;
+    font-size:20px;
+    font-style: italic;
+    font-weight:400;
+}
+.QuyTac-box2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.QuyTac-box2-content {
+    width: 47%; /* 50% width for each box with some spacing */
+    height: 70px;
+    margin: 0.8%;
+    background-color: #FCDBDB;
+    color: #7B7777;
+    text-align: center;
+    padding: 3.1%;
+    box-sizing: border-box;
 }
 /* LienKet */
 .LienKet {
@@ -74,7 +98,6 @@
     /* line-height: 40px; */
     font-size: 40px;
     color: #60B847;
-    
 }
 .LienKet-box {
     display: block;
