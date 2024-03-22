@@ -32,34 +32,62 @@
 .LienKet-box {
     display: block;
     border-style: solid;
+    border-width: 4px;
     border-radius: 20px;
+    border-color: #60B847;
+    overflow: hidden;
 }
 .lienKet-box-titile {
     font-style: italic;
     font-size: 20px;
+    padding: 30px 20px;
+    text-align: center;
+    color: white;
+    background-color: #60B847;
+    text-wrap: wrap;
 }
 .LienKet-box-content {
     display: flex;
+    margin: 10px;
+    /* text-align: center; */
+    align-items: center;
+    width: 100%;
 }
 .LienKet-box-content-right {
-
+    width: 50%;
 }
 .LienKet-box-content-left {
-
+    width: 50%;
 }
 .LienKet-content {
     font-size: 20px;
     color: #7B7777;
+    line-height: 1.8;
 }
 /* DanhSach */
 .DanhSach {
+    margin: 30px 0;
     margin-left: 100px;
-}
-.DanhSach-box {
     display: flex;
 }
+.DanhSach-box {
+    display: block;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 20px;
+    border-color: #60B847;
+    width: 50%;
+    margin-right: 100px;
+    overflow: hidden;
+}
 .DanhSach-box-title {
-
+    text-align: center;
+    color: white;
+    background-color: #60B847;
+    text-wrap: wrap;
+    padding: 30px 20px;
+    text-align: center;
+    margin-top: 0;
 }
 .DanhSach-box-content {
     
@@ -67,12 +95,16 @@
 .DanhSach-content {
     font-size: 20px;
     color: #7B7777;
+    line-height: 1.4;
 }
 .DanhSach-end {
     font-style: italic;
+    width: 50%;
+    margin-right: 100px;
+    line-height: 3;
 }
 .DanhSach-end-paragraph {
-
+    line-height: 1.4;
 }
 .DanhSach-title1 {
 
