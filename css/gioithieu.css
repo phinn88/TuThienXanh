@@ -96,13 +96,15 @@
     flex-wrap: wrap;
 }
 .QuyTac-box2-content {
-    width: 47%; /* 50% width for each box with some spacing */
+    display: flex;
+    width: 48%;
     height: 70px;
     margin: 0.8%;
     background-color: #FCDBDB;
     color: #7B7777;
     text-align: center;
-    padding: 3.1%;
+    justify-content: center;
+    align-items: center;
     box-sizing: border-box;
 }
 /* LienKet */
