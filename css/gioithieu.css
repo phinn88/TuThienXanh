@@ -20,9 +20,62 @@
 }
 /* LienKet */
 .LienKet {
+    margin: 0 100px;
+    font-family: "Montserrat", sans-serif;
+}
+.LienKet-title {
+    line-height: 40px;
+    font-size: 60px;
+    color: #60B847;
+    
+}
+.LienKet-box {
+    display: block;
+    border-style: solid;
+}
+.lienKet-box-titile {
+    font-style: italic;
+    font-size: 20px;
+}
+.LienKet-box-content {
+    display: flex;
+}
+.LienKet-box-content-right {
 
+}
+.LienKet-box-content-left {
+
+}
+.LienKet-content {
+    font-size: 20px;
+    color: #7B7777;
 }
 /* DanhSach */
 .DanhSach {
+    margin-left: 100px;
+}
+.DanhSach-box {
+    display: flex;
+}
+.DanhSach-box-title {
+
+}
+.DanhSach-box-content {
+    
+}
+.DanhSach-content {
+    font-size: 20px;
+    color: #7B7777;
+}
+.DanhSach-end {
+    font-style: italic;
+}
+.DanhSach-end-paragraph {
+
+}
+.DanhSach-title1 {
+
+}
+.DanhSach-title2 {
 
 }
