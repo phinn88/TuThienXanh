@@ -1,7 +1,9 @@
 .no-list {
     list-style: none;
 }
-
+body {
+    font-family: "Montserrat", sans-serif;
+}
 /* SuMenh */
 .SuMenh {
     margin: 0 100px;
@@ -66,7 +68,6 @@
 /* LienKet */
 .LienKet {
     margin: 0 100px;
-    font-family: "Montserrat", sans-serif;
 }
 .LienKet-title {
     /* line-height: 40px; */
@@ -99,16 +100,16 @@
     width: 100%;
 }
 .LienKet-box-content-right {
-    max-width: 50%;
+    max-width: 60%;
 }
 .LienKet-box-content-left {
     max-width: 50%;
-    margin-right: 5%;
+    margin-right: 4%;
 }
 .LienKet-content {
     font-size: 20px;
     color: #7B7777;
-    line-height: 1.8;
+    line-height: 2;
 }
 /* DanhSach */
 .DanhSach {
@@ -127,12 +128,13 @@
     overflow: hidden;
 }
 .DanhSach-box-title {
+    padding: 30px 20px;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
     color: white;
     background-color: #60B847;
     text-wrap: wrap;
-    padding: 30px 20px;
-    text-align: center;
-    margin-top: 0;
 }
 .DanhSach-box-content {
     
@@ -140,7 +142,7 @@
 .DanhSach-content {
     font-size: 20px;
     color: #7B7777;
-    line-height: 1.4;
+    line-height: 2;
 }
 .DanhSach-end {
     font-style: italic;
@@ -149,7 +151,7 @@
     line-height: 3;
 }
 .DanhSach-end-paragraph {
-    line-height: 1.4;
+    line-height: 2.5;
 }
 .DanhSach-title1 {
     

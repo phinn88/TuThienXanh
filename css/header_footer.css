@@ -34,6 +34,8 @@ header {
     color:#60B847;
     background-color: white;
     cursor: pointer;
+    font-weight: 600;
+    /* font-size: 30px; */
 }
 .logo {
     flex: 0.8;
