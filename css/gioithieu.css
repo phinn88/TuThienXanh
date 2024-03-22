@@ -35,8 +35,8 @@
     font-family: "Montserrat", sans-serif;
 }
 .LienKet-title {
-    line-height: 40px;
-    font-size: 60px;
+    /* line-height: 40px; */
+    font-size: 40px;
     color: #60B847;
     
 }
@@ -51,7 +51,7 @@
 .lienKet-box-titile {
     font-style: italic;
     font-size: 20px;
-    padding: 30px 20px;
+    padding: 30px 92px;
     text-align: center;
     color: white;
     background-color: #60B847;
@@ -59,16 +59,17 @@
 }
 .LienKet-box-content {
     display: flex;
-    margin: 10px;
+    margin: 10px 8px;
     /* text-align: center; */
-    align-items: center;
+    /* align-items: center; */
     width: 100%;
 }
 .LienKet-box-content-right {
-    width: 50%;
+    max-width: 50%;
 }
 .LienKet-box-content-left {
-    width: 50%;
+    max-width: 50%;
+    margin-right: 5%;
 }
 .LienKet-content {
     font-size: 20px;
@@ -92,7 +93,6 @@
     overflow: hidden;
 }
 .DanhSach-box-title {
-    text-align: center;
     color: white;
     background-color: #60B847;
     text-wrap: wrap;
@@ -118,8 +118,7 @@
     line-height: 1.4;
 }
 .DanhSach-title1 {
-
+    
 }
 .DanhSach-title2 {
-
 }
