@@ -1,9 +1,9 @@
 .no-list {
     list-style: none;
 }
-body {
+/* body {
     font-family: "Montserrat", sans-serif;
-}
+} */
 /* SuMenh */
 .SuMenh {
     margin: 0 100px;
@@ -68,6 +68,7 @@ body {
 /* LienKet */
 .LienKet {
     margin: 0 100px;
+    font-family: "Montserrat", sans-serif;
 }
 .LienKet-title {
     /* line-height: 40px; */
@@ -116,6 +117,7 @@ body {
     margin: 30px 0;
     margin-left: 100px;
     display: flex;
+    font-family: "Montserrat", sans-serif;
 }
 .DanhSach-box {
     display: block;
@@ -149,12 +151,15 @@ body {
     width: 50%;
     margin-right: 100px;
     line-height: 3;
+    font-weight: bold;
+    color: #7B7777;
+    font-size: 20px;
 }
 .DanhSach-end-paragraph {
-    line-height: 2.5;
+    line-height: 2;
 }
 .DanhSach-title1 {
-    
-}
+}   
 .DanhSach-title2 {
+
 }
