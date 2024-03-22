@@ -4,10 +4,21 @@
 
 /* SuMenh */
 .SuMenh {
+    margin: 0 100px;
     height: 500px;
     background-color: white;
 }
+.SuMenh h6 {
+    
+    color: #7B7777;
+    font-size:20px;
+    font-weight:400;
+}
 .SuMenh-title{
+    color: #60B847;
+    font-size: 60px;
+}
+.SuMenh-box1{
     color: #60B847;
 }
 /* MucTieu */
