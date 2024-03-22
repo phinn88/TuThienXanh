@@ -6,20 +6,42 @@
 .SuMenh {
     margin: 0 100px;
     height: 500px;
-    background-color: white;
 }
-.SuMenh h6 {
+.SuMenh-box1 h6 {
     
     color: #7B7777;
     font-size:20px;
+    font-style: italic;
     font-weight:400;
 }
+
 .SuMenh-title{
     color: #60B847;
     font-size: 60px;
 }
 .SuMenh-box1{
     color: #60B847;
+}
+.SuMenh-box1 span{
+    color: #60B847;
+    font-style:italic;
+    text-decoration: underline;
+}
+.SuMenh-box2{
+    display: flex;
+    border-style: solid;
+    border-radius: 20px;
+    flex-flow: column nowrap;
+}
+.SuMenh-box2-title{
+    /* align-self: ; */
+    vertical-align: top;
+    background-color: #60B847;
+    
+}
+.SuMenh-box2 h6{
+    color: white;
+    font-size: 20px;
 }
 /* MucTieu */
 .MucTieu {
@@ -45,7 +67,7 @@
     border-style: solid;
     border-radius: 20px;
 }
-.lienKet-box-titile {
+.lienKet-box-title {
     font-style: italic;
     font-size: 20px;
 }
