@@ -29,6 +29,7 @@
 .LienKet-box {
     display: block;
     border-style: solid;
+    border-radius: 20px;
 }
 .lienKet-box-titile {
     font-style: italic;
