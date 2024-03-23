@@ -16,12 +16,17 @@
 }
 .SuMenh-box1{
     color: #60B847;
+    border-left:4px solid #60B847; 
+    margin:25px 0px;
 }
 .SuMenh-box1 h6 {
     color: #7B7777;
     font-size:20px;
     font-style: italic;
-    font-weight:400;
+    font-weight:400; 
+    margin: 0px 0px 0px 10px;
+    /* border-top: 0px; */
+    /* border-right: 0px; */
 }
 .SuMenh-box1 span{
     color: #60B847;
@@ -30,8 +35,6 @@
 }
 .SuMenh-box2{
     display: flex;
-    border-style: solid;
-    border-radius: 20px;
     flex-flow: column nowrap; 
     /* display: block; */
     border-style: solid;
