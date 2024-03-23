@@ -78,17 +78,17 @@ footer {
     margin: 0;
     padding: 20px 0;
     display: flex;
-    flex-flow: row nowrap  ;
+    flex-flow: row nowrap ;
 }
 .left {
     margin-left: 50px;
     display: flex;
     flex-flow:column nowrap;
     flex: 1 100%;
-
+    max-width: 40%;
 }
 .left-content-text {
-    font-size: 18px;
+    font-size: 1.2vw;
     color: white;
     margin: 16px 0px;
     
@@ -104,7 +104,7 @@ footer {
     flex-wrap: wrap;
     flex: 2 100%;
     align-self: center;
-    
+    max-width: 60%;
 }
 .right1 {
     list-style: none;
@@ -124,7 +124,7 @@ footer {
 }
 .right-list-content{
     color:white;
-    font-size: 24px;
+    font-size: 1.2vw;
 }
 .right p{
     color: white;
