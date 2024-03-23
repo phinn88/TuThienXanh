@@ -3,7 +3,7 @@ body {
     font-family:"Montserrat", 'Times New Roman';
     font-size: 90%;
     background-image: url(/img/star.png);
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-position: right;
 }
 header {
