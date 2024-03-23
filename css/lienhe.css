@@ -41,5 +41,30 @@
 .list-noidung {
     line-height: 0.32; 
 }
-
+.button-area{
+    display: flex;
+    margin:124px 221px;
+    flex-flow: row nowrap;
+    font-size: 28px;
+}
+.button{
+    display: flex;
+    /* margin-left: 124px; */
+    flex: 1 1;
+    align-self: center;
+    background-color: rgba(96, 184, 71, 0.35);
+    /* opacity: 35%; */
+    align-items: center;
+    border-radius:40px;
+    margin:0px 75px
+}
+.button-text{
+    color: #203F17;
+    flex-grow: 1;
+    opacity: 100%;
+    font-weight:700;
+    margin:18px 0px;
+    /* align-self: center; */
+    text-align: center;
+}
 /* Gặp nhau cuối năm */
