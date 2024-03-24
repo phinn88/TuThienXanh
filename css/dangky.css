@@ -1,0 +1,39 @@
+.container {
+    max-width: 850px;
+    margin: 0 auto;
+}
+/* .error-message {
+    color: red;
+} */
+.form {
+    
+}
+.form-section {
+    
+    margin-bottom: 2%;
+}
+.Form-Section-Infor {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    gap: 10px;
+    margin-left: 5%;
+    align-items: center;
+}
+label {
+    text-align: left;
+}
+input {
+    width: 70%;
+    max-width: 12vw;
+}
+textarea {
+    width: 200%;
+}
+select {
+    width: 50%;
+    max-width: 9vw;
+}
+#submit-button {
+    margin-left: 82%;
+    margin-bottom: 2%;
+}

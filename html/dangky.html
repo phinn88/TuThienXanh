@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký gia nhập Thiện Nguyện Xanh</title>
+    <link rel="stylesheet" href="/css/header_footer.css">
+    <link rel="stylesheet" href="/css/dangky.css">
+    <!--Mont serrat font link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/img/icon/fontawesome-free-6.5.1-web/css/all.min.css">
+</head>
+<body>
+    <!-- Menu -->
+    <header>
+        <div class="logo">
+            <img class="logo-img" src="/img/logo.png" alt="">
+        </div>
+        <div class="menu">
+            <ul class="menu-button">
+                <li class="menu-button-content">TRANG CHỦ</li>
+                <li class="menu-button-content">GIỚI THIỆU</li>
+                <li class="menu-button-content">DỰ ÁN</li>
+                <li class="menu-button-content">LIÊN HỆ</li>
+            </ul>
+        </div>
+        <div class="search" >
+            <div class="search-button">
+                <i class="search-icon fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+    </header>
+    <!-- Body -->
+    <div class="body">
+        <div class="container">
+            <h1>Đăng ký gia nhập Thiện Nguyện Xanh</h1>
+            <P>Một đoạn văn bản ở đầu khoảng 3 - 5 dòng<br>
+            Một đoạn văn bản ở đầu khoảng 3 - 5 dòng<br>
+            Một đoạn văn bản ở đầu khoảng 3 - 5 dòng<br>
+            </P>
+            <form class="form">
+            <div class="form-section">
+                <h2>Phần 1. Giới thiệu</h2>
+                    <div class="Form-Section-Infor">
+                        <label for="fullname">Họ tên:</label>
+                        <input type="text" id="fullname" name="fullname" required maxlength="50">
+                    </div><br>
+                    <div class="Form-Section-Infor">
+                        <label for="birthdate">Ngày sinh:</label>
+                        <input type="date" id="birthdate" name="birthdate" required>
+                    </div><br>
+                    <div class="Form-Section-Infor">
+                        <label for="gender">Giới tính:</label>
+                        <select id="gender" name="gender" required>
+                            <option value="Nam">Nam</option>
+                            <option value="Nữ">Nữ</option>
+                        </select>
+                    </div><br>
+                    <div class="Form-Section-Infor">
+                        <label for="hometown">Quê quán:</label>
+                        <input type="text" id="hometown" name="hometown">
+                    </div><br>
+                    <div class="Form-Section-Infor">
+                        <label for="address">Địa chỉ thường trú:</label>
+                        <input type="text" style="margin-left: 1%;" address1 name="address1" required placeholder="Xã/ Phường/ Thị trấn">
+                        <p></p>
+                        <input type="text" style="margin-left: 1%;" address2 name="address2" required placeholder="Quận/ Huyện">
+                        <p></p>
+                        <input type="text" style="margin-left: 1%;" address3 name="address3" required placeholder="Tỉnh/ Thành phố">
+                    </div><br>
+                    <div class="Form-Section-Infor">
+                        <label for="occupation">Nghề nghiệp:</label>
+                        <input type="text" id="occupation" name="occupation">
+                    </div><br>
+            </div>
+            <div class="form-section">
+                <h2>Phần 2. Thông tin liên hệ</h2>
+                <div class="Form-Section-Infor">
+                    <label for="phone">Số điện thoại:</label>
+                    <input type="text" id="phone" name="phone" required>
+                </div><br>
+                <div class="Form-Section-Infor">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div><br>
+                <div class="Form-Section-Infor">
+                    <label for="contact_preference">Nhận phản hồi qua:</label>
+                    <select id="contact_preference" name="contact_preference" required>
+                        <option value="Số điện thoại">Số điện thoại</option>
+                        <option value="Email">Email</option>
+                    </select>
+                </div><br>
+                <div class="Form-Section-Infor">
+                    <label for="expectation">Mong muốn khi tham gia CLB:</label><br>
+                    <textarea id="expectation" name="expectation" rows="4" cols="50"></textarea>
+                </div><br>
+            </div>
+            <p>Văn bản cuối cũng 3 - 5 dòng.<br>
+            Văn bản cuối cũng 3 - 5 dòng.<br>
+            Văn bản cuối cũng 3 - 5 dòng.<br>
+            </p>
+            <p style="text-align: right;">Ngày... tháng... năm... <!-- làm sao cho js tự điền date nhỉ --></p>
+            <button type="submit" id="submit-button">GỬI PHIẾU ĐĂNG KÝ</button>
+            </form>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+    <div class="left">
+        <img src="/img/LogoTrang.png" alt="", style="align-self: flex-start;">
+        <div class="left-content">
+            <p class="left-content-text">VIET GREEN CHARITY - Love & Charity! Dream come true</p>
+            <p class="left-content-text">CLB THIỆN NGUYỆN XANH - TÌNH NGUYỆN XANH -QUỸ TỪ<br> THIỆN XANH</p>
+            <p class="left-content-text">CLB Từ thiện hoạt động không vụ lợi - Ứng xử từ thiện nhân <br> văn - Gieo yêu thương gặt phép màu</p>
+        </div>
+        <div class="left-icon">
+            <i class="left-icon-button fb fa-brands fa-facebook"></i>
+            <i class="left-icon-button ig fa-brands fa-square-instagram"></i>
+            <i class="left-icon-button tk fa-brands fa-tiktok"></i>
+            <i class="left-icon-button youtube fa-brands fa-brands fa-youtube"></i>
+        </div>
+    </div>
+    <div class="right">
+        <ul class="right1">
+            <li class="right-list-content">
+                <i class="right-list-content-icon fa-solid fa-phone"></i>
+                04.66888684 | 0232.3868666</li>
+            <li class="right-list-content">
+                <i class="right-list-content-icon fa-solid fa-location-dot"></i>
+                P102 H50, Alane 41/27 Vong Str, Hai Ba Trung Dist, Hanoi, Vietnam</li>
+            <li class="right-list-content">
+                <i class="right-list-content-icon fa-solid fa-link"></i>
+                www.tuthienxanh.com</li>
+            <li class="right-list-content">
+                <i class="right-list-content-icon fa-solid fa-envelope"></i>
+                tuthienxanh@gmail.com</li>
+        </ul>
+        <p class="end">Giấy phép hoạt động trang thông tin điện tử tổng hợp số    /GP-STTTT, HCM ngày   /  /2013 <br> Giấy xác nhận cung cấp dịch vụ mạng xã hội trực tuyến số /GXN-TTĐT - Bộ TTTT, HN ngày   /   /2014</p>
+    </div>
+</footer>
+</body>
+</html>
