@@ -1,0 +1,65 @@
+.body {
+    display: flex;
+    margin: 50px 50px 50px 100px;
+}
+.baiviet {
+    width: 75%;
+    border-left: 5px solid #60B847 ;
+    border-right: 5px solid #60B847;
+}
+.goiy {
+    width: 25%;
+}
+.title {
+    font-size: 32px;
+    margin-top: 30px;
+    margin-left: 40px;
+    color: black;
+    font-weight: bolder;
+}
+.abstract {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 40px;
+    font-weight: 600;
+}
+.detail {
+    margin: 30px 40px;
+    font-size: 20px;
+}
+.detail__img {
+
+}
+/* Gioi y */
+.goiy {
+    margin: 30px;
+}
+.tinlienquan {
+    margin: 0;
+}
+.goiy__title {
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 500;
+    color: #7B7777;
+}
+.tin {
+    margin-bottom: 15px;
+    padding: 30px;
+    background-color: #D9D9D9;
+    /* background-image: url("https://tse1.mm.bing.net/th?id=OIP.Ln6Y7Uy_2VEE-BgU1_GT5QHaEK&pid=Api&P=0&h=180"); */
+}
+.tin__title {
+    font-size: 20px;
+    margin: 0;
+}
+.tin__abstract {
+    margin: 5px 0 0 0;
+    font-size: 16px;
+}
+.moinhat__title {
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 500;
+    color: #7B7777;
+}
