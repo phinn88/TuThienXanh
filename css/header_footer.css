@@ -11,66 +11,61 @@ header {
     height: 80px;
     width: 100%;
     margin: 0;
-    display: flex;
+    display: grid;
+    grid-template-columns: 10% 64% 26%;
     justify-content: space-between;
     align-items: center;
 }
 .menu-button {
     list-style: none;
-    display: flex;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
     line-height: 80px;
     margin: auto;
-    flex: 1;
+    flex-basis: 70%;
 }
 .menu-button-content {
     color: white;
     display: block;
-    padding: 0px 30px;
+    padding: 0 30px;
     font-size: 1.3vw;
     font-weight: 520;
+    text-align: center;
 }
 .menu-button-content:hover {
     color:#60B847;
     background-color: white;
     cursor: pointer;
-    font-weight: 600;
-    /* font-size: 30px; */
+    font-weight: 680;
 }
 .logo {
-    flex: 0.8;
 }
 .logo-img {
-    height: 80px;
-    width: auto;
-    margin: 0 10%;
+    width: 65%;
+    height: auto;
+    margin: 0 15%;
 }
 .search {
-    flex: 1;
-    display: flex;
     align-items: center;
 }
 .search-bar{
-    flex: 1;
-    display: flex;
-    align-items: center;
+    height: 50px;
 }
 .search-button {
     display: block;
     width: 70%;
-    height: 50px;
+    height: 35px;
     background: white;
     border-radius: 22.5px;
     margin: auto;
     position: relative;
-    /* display: flex; */
 }
 .search-icon {
     font-size: 28px;
-    color: #60B847;  
-    /* margin-right: 67px; */
+    color: #60B847;
+    margin-top: 1.75%;  
+    margin-left: 83%;
     position: absolute;
-    top: 12px;
-    right: 18px;
 }
 /* footer */
 footer {
