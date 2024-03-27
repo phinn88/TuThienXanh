@@ -1,6 +1,4 @@
-.montserrat {
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 50;
-    font-style: normal;
-  }
+@font-face {
+  font-family: "Montserrat";
+  src:url(/font/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
