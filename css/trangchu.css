@@ -38,7 +38,7 @@
 }
 .thongdiep-content h6{
     font-size: 38px;
-    font-weight: 200;
+    font-weight: 100;
     margin: 10px 0px 10px;
 }
 .thongdiep-content-icon{
@@ -46,6 +46,7 @@
 }
 .thongdiep-content p{
     font-size: 26px;
+    font-weight: 100;
     /* margin-bottom: 100px; */
 }
 .thongdiep-content-yeuthong{
@@ -63,7 +64,7 @@
 }
 .thongdiep-content-yeuthong h6{
     font-size: 38px;
-    font-weight: 200;
+    font-weight: 100;
     color: white;
     margin: 0px 0px 0px;
     /* font-size: 1.2vw; */
@@ -71,5 +72,6 @@
 .thongdiep-content-yeuthong p{
     font-size: 26px;
     color: white;
+    font-weight: 100;
 }
 /* Phi */
