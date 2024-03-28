@@ -34,7 +34,6 @@ h1 {
 .Form-Section-Infor {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    gap: 10px;
     margin-left: 5%;
     align-items: center;
 }
@@ -43,22 +42,26 @@ label {
 }
 input {
     width: 80%;
-    max-width: 12vw;
-    border-radius: 8px;
+    height: 22px;
+    max-width: 15vw;
+    border-radius: 5px;
     background-color: #c0d4b7;
 }
 textarea {
-    width: 200%;
-    border-radius: 8px;
+    width: 180%;
+    height: 50px;
+    border-radius: 5px;
     background-color: #c0d4b7;
 }
 select {
     width: 50%;
     max-width: 8vw;
-    border-radius: 8px;
+    height: 22px;
+    border-radius: 5px;
     background-color: #c0d4b7;
 }
 #submit-button {
+    height: 5vh;
     margin-left: 75%;
     margin-bottom: 2%;
     border-radius: 8px;
