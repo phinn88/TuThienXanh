@@ -55,7 +55,7 @@
     margin: 0;
 }
 .tin__img{
-    width: auto;
+    width: max-content;
     height: auto;
     max-width: 100%;
     max-height: 100%;
