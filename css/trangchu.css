@@ -1,2 +1,70 @@
 /* An */
+
+.flex-container{
+    display: flex;
+    flex-flow: row wrap;
+}
+.thongdiep{
+    margin: -50px 50px 50px;
+    display: flex;
+    /* height: 100px; */
+    flex-flow: row nowrap; 
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* justify-content: space-evenly; */
+}
+.thongdiep-content{
+    display: flex;
+    flex-flow:column nowrap;
+    flex:1 0;
+    margin: 0px 150px;
+    background-color: white;
+    
+    /* height: 100px; */
+    border: 1px solid black;
+    justify-content: space-evenly;
+    text-align: center;
+    /* align-content: center; */
+}
+.thongdiep-content-text{
+    align-items: flex-start;
+    align-content:start;
+    /* margin-bottom: 100px; */
+    padding: 10px 0px 10px;
+}
+.thongdiep-content h6{
+    font-size: 38px;
+    font-weight: 200;
+    margin: 10px 0px 10px;
+}
+.thongdiep-content-icon{
+    margin-top: 50px;
+}
+.thongdiep-content p{
+    font-size: 26px;
+    /* margin-bottom: 100px; */
+}
+.thongdiep-content-yeuthong{
+    display: flex;
+    flex-flow:column nowrap;
+    flex:1 0;
+    justify-content: space-evenly;
+    margin: 0px 200px;
+    background-color: #448332;
+    
+    margin:-100px 0px 100px;
+    border: 1px solid black;
+    text-align: center;
+}
+.thongdiep-content-yeuthong h6{
+    font-size: 38px;
+    font-weight: 200;
+    color: white;
+    margin: 0px 0px 0px;
+    /* font-size: 1.2vw; */
+}
+.thongdiep-content-yeuthong p{
+    font-size: 26px;
+    color: white;
+}
 /* Phi */

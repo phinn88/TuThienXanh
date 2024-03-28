@@ -120,6 +120,7 @@ footer {
 .right-list-content{
     color:white;
     font-size: 1.2vw;
+    justify-self: center;
 }
 .right p{
     color: white;
