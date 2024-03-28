@@ -1,9 +1,8 @@
 /* An */
-
-.flex-container{
-    display: flex;
-    flex-flow: row wrap;
+.slide__img{
+    margin-top: 50px;
 }
+
 .thongdiep{
     margin: -50px 50px 50px;
     display: flex;
