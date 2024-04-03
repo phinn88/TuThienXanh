@@ -100,3 +100,45 @@
     font-weight: 200;
 }
 /* Phi */
+/* dk */
+.dangky {
+    position: relative;
+}
+.dangky__img {
+    width: 100%;
+}
+.dangky__content {
+    position: absolute;
+    width: 260px;
+    top: 30%;
+    right: 10%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.dangky__icon {
+
+}
+.dangky__title {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+.dangky__button {
+    display: block;
+    /* margin-top: 30px; */
+    padding: 26px 36px;
+    background-color: rgba(32,63,23,0.7);
+    
+    border-radius: 15px;
+   
+    /* overlay: none; */
+}
+.dangky__button-text {
+    color: white;
+    text-decoration: none;
+    margin-left: 0px;
+    margin-right: 0px;
+}
