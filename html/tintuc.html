@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tin tức chi tiết</title>
+    <link rel="stylesheet" href="/css/header_footer.css">
+    <!-- <link rel="stylesheet" href="/css/tintucchitiet.css"> -->
+    <link rel="stylesheet" href="/css/font.css">
+    <link rel="stylesheet" href="/img/icon/fontawesome-free-6.5.1-web/css/all.min.css">
+    <style>
+        .container {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+        }
+      
+        .hot-news {
+          display: flex;
+          flex-direction: row;
+          width: 100%;
+          height: 420px;
+          border-bottom: 1px solid #ccc;
+        }
+      
+        .hot-news-left {
+          width: 66.66%;
+          display: flex;
+          flex-direction: row;
+          border-right: 1px solid #ccc;
+        }
+
+        .hot-news-left-img {
+            width: 45%;
+            margin: 2% 0% 2% 4%;
+            background-color: rgb(127, 212, 93);
+            border-radius: 20px 0 0 20px;
+        }
+
+        .hot-news-left-img img {
+            width: 100%;
+            margin: 5%;
+            height: auto;
+        }
+
+        .hot-news-left-text {
+            width: 45%;
+            margin: 2% 4% 2% 0%;
+            text-align: left;
+            background-color: rgb(127, 212, 93);
+            border-radius: 0 20px 20px 0;
+        }
+      
+        .hot-news-right {
+          width: 33.34%;
+          margin: 2%;
+          display:flex;
+          flex-direction: column;
+          overflow-y: auto;
+        }
+
+        .hot-news-right-article {
+            width: 80%;
+            display: block;
+            justify-content: center;
+            border-radius: 15px;
+            background-color: rgb(127, 212, 93);
+            padding: 3%;
+        }
+
+        .hot-news-right-article-img {
+            width: 90%;
+        }
+
+        .hot-news-right-article-img img {
+            width: 90%;
+            margin: 3% 10% 2% 10%;
+        }
+
+        .hot-news-left-article-text {
+            width: 80%;
+            margin-top: 0.5%;
+            text-align: left;
+        }
+      
+        .other-news {
+          display: flex;
+          flex-wrap: wrap;
+          flex-direction: row;
+          width: 100%;
+          margin-top: 1%;
+          margin-left: 2%;
+        }
+      
+        .other-news div {
+          width: 20%;
+          margin: 2%;
+          box-sizing: border-box;
+        }
+      </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img class="logo-img" src="/img/logo.png" alt="">
+        </div>
+        <div class="menu">
+            <ul class="menu-button">
+                <li class="menu-button-content">TRANG CHỦ</li>
+                <li class="menu-button-content">GIỚI THIỆU</li>
+                <li class="menu-button-content">DỰ ÁN</li>
+                <li class="menu-button-content">LIÊN HỆ</li>
+            </ul>
+        </div>
+        <div class="search" >
+            <div class="search-button">
+                <i class="search-icon fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+    </header>
+    <div class="body">
+        <div class="container">
+            <div class="hot-news">
+              <div class="hot-news-left">
+                <div class="hot-news-left-img">
+                    <img src="../img/tintuc/hieutruongvungcao.jpg" alt="Hieu truong vung cao">
+                </div>
+                <div class="hot-news-left-text">
+                  <h2 class="hot-news-left-title">Hot News Title</h2>
+                  <p class="hot-news-left-description">This is the content of the left section of hot news. Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                    This is the content of the left section of hot news. Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                  </p>
+              </div>
+            </div>
+              <div class="hot-news-right">
+                <div class="hot-news-right-article">
+                    <div class="hot-news-right-article-img">
+                        <img src="../img/tintuc/hieutruongvungcao.jpg" alt="Hieu truong vung cao">
+                    </div>
+                    <div class="hot-news-right-article-text">
+                        <h2 >Hot News Title</h2>
+                        <p >This is the content of the left section of hot news. Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    </div>
+                </div><br>
+                <div class="hot-news-right-article">
+                    <div class="hot-news-right-article-img">
+                        <img src="../img/tintuc/hieutruongvungcao.jpg" alt="Hieu truong vung cao">
+                    </div>
+                    <div class="hot-news-right-article-text">
+                        <h2 >Hot News Title</h2>
+                        <p >This is the content of the left section of hot news. Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    </div>
+                </div><br>
+                <div class="hot-news-right-article">
+                    <div class="hot-news-right-article-img">
+                        <img src="../img/tintuc/hieutruongvungcao.jpg" alt="Hieu truong vung cao">
+                    </div>
+                    <div class="hot-news-right-article-text">
+                        <h2 >Hot News Title</h2>
+                        <p >This is the content of the left section of hot news. Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    </div>
+                </div><br>
+              </div>
+            </div>
+            
+            <div class="other-news">
+              <div>
+                <h2>Other News 1</h2>
+                <p>This is the content of other news section 1.</p>
+              </div>
+              <div>
+                <h2>Other News 2</h2>
+                <p>This is the content of other news section 2.</p>
+              </div>
+              <div>
+                <h2>Other News 3</h2>
+                <p>This is the content of other news section 3.</p>
+              </div>
+              <div>
+                <h2>Other News 4</h2>
+                <p>This is the content of other news section 4.</p>
+              </div>
+              <div>
+                <h2>Other News 1</h2>
+                <p>This is the content of other news section 1.</p>
+              </div>
+              <div>
+                <h2>Other News 2</h2>
+                <p>This is the content of other news section 2.</p>
+              </div>
+              <div>
+                <h2>Other News 3</h2>
+                <p>This is the content of other news section 3.</p>
+              </div>
+              <div>
+                <h2>Other News 4</h2>
+                <p>This is the content of other news section 4.</p>
+              </div>
+            </div>
+          </div>
+    </div>
+    <footer>
+        <div class="left">
+            <img src="/img/LogoTrang.png" alt="", style="align-self: flex-start;">
+            <div class="left-content">
+                <p class="left-content-text">VIET GREEN CHARITY - Love & Charity! Dream come true</p>
+                <p class="left-content-text">CLB THIỆN NGUYỆN XANH - TÌNH NGUYỆN XANH -QUỸ TỪ<br> THIỆN XANH</p>
+                <p class="left-content-text">CLB Từ thiện hoạt động không vụ lợi - Ứng xử từ thiện nhân <br> văn - Gieo yêu thương gặt phép màu</p>
+            </div>
+            <div class="left-icon">
+                <i class="left-icon-button fb fa-brands fa-facebook"></i>
+                <i class="left-icon-button ig fa-brands fa-square-instagram"></i>
+                <i class="left-icon-button tk fa-brands fa-tiktok"></i>
+                <i class="left-icon-button youtube fa-brands fa-brands fa-youtube"></i>
+            </div>
+        </div>
+        <div class="right">
+            <ul class="right1">
+                <li class="right-list-content">
+                    <i class="right-list-content-icon fa-solid fa-phone"></i>
+                    04.66888684 | 0232.3868666</li>
+                <li class="right-list-content">
+                    <i class="right-list-content-icon fa-solid fa-location-dot"></i>
+                    P102 H50, Alane 41/27 Vong Str, Hai Ba Trung Dist, Hanoi, Vietnam</li>
+                <li class="right-list-content">
+                    <i class="right-list-content-icon fa-solid fa-link"></i>
+                    www.tuthienxanh.com</li>
+                <li class="right-list-content">
+                    <i class="right-list-content-icon fa-solid fa-envelope"></i>
+                    tuthienxanh@gmail.com</li>
+            </ul>
+            <p class="end">Giấy phép hoạt động trang thông tin điện tử tổng hợp số    /GP-STTTT, HCM ngày   /  /2013 <br> Giấy xác nhận cung cấp dịch vụ mạng xã hội trực tuyến số /GXN-TTĐT - Bộ TTTT, HN ngày   /   /2014</p>
+        </div>
+    </footer>
+</body>
+</html>
