@@ -51,10 +51,29 @@
     background-color: #D9D9D9;
     /* background-image: url("https://tse1.mm.bing.net/th?id=OIP.Ln6Y7Uy_2VEE-BgU1_GT5QHaEK&pid=Api&P=0&h=180"); */
 }
-
+.tin1 {
+    background-image: url("/img/tintuc/traotangxelan.jpg");
+}
+.tin2 {
+    background-image: url("/img/tintuc/LuMuongLa.jpg");
+}
+.tin3 {
+    background-image: url("/img/tintuc/chungtayhuong.jpg");
+}
+.tin4 {
+    background-image: url("/img/tintuc/luminechung.jpg");    
+}
+.tin5 {
+    background-image: url("/img/tintuc/mualudondap.jpg");
+}
+.tin6 {
+    background-image: url("/img/tintuc/mualulaichau.jpg");  
+}
 .tin__title {
     font-size: 20px;
     margin: 0;
+    color: white;
+    text-align: justify;
 }
 .tin__img{
     width: max-content;
@@ -67,6 +86,8 @@
 .tin__abstract {
     margin: 5px 0 0 0;
     font-size: 16px;
+    color: white;
+    text-align: justify;
 }
 .moinhat__title {
     font-size: 24px;
