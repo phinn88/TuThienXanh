@@ -1,6 +1,27 @@
 /* An */
 .slide__img{
     margin-top: 50px;
+    min-height: 50vh;
+    min-width: 50vw;
+}
+
+.slide{
+    margin-top: 50px;
+    min-height: 100vh;
+    min-width: 50vw;
+    background-image:url("/img/AnhTrch1.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slide-text p::after{
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
 }
 
 .thongdiep{
@@ -16,7 +37,8 @@
     display: flex;
     flex-flow:column nowrap;
     flex:1 0;
-    margin: 0px 150px;
+    /* margin: 0px 150px; */
+    margin: 0vh 10vw;
     justify-content: space-evenly;
     text-align: center;
     background-color: white;
@@ -54,8 +76,8 @@
     flex-flow:column nowrap;
     flex:1.2 0;
     justify-content: space-evenly;
-    /* margin: 0px 200px; */
-    margin:-100px 0px 100px;
+
+    margin:-10vh 0px 10vw;
     background-color: #448332;
     border-radius: 5px;
 

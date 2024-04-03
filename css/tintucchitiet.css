@@ -28,7 +28,9 @@
     font-size: 20px;
 }
 .detail__img {
-
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 /* Gioi y */
 .goiy {
