@@ -14,16 +14,45 @@
     align-items: center;
     justify-content: center;
 }
-.slide-text p::after{
-    background-color: #000;
-    content: "";
-    display: inline-block;
-    height: 1px;
-    position: relative;
-    vertical-align: middle;
-    width: 50%;
+.test p::before{
+    background: white;
 }
-
+.test p::after{
+    background: black;
+    height: 2px;
+    flex: 1;
+    content: '';
+}
+.left:after {
+    background: none;
+  }
+  h2.right:before {
+    background: none;
+  }
+.slide-text p:before,
+.slide-text p:after{
+    display: flex;
+    float: right;
+    margin-top: .8em; 
+    border-top: 2px solid silver;
+    width: 50%;
+    content: ""
+}
+/* .test{
+    margin: 20px;
+    overflow :hidden;
+    color: gray;
+    text-align: left;
+    line-height: 1.6em;  
+}
+.test:before {
+    display: block;
+    float: right;
+    margin-top: .8em; 
+    border-top: 2px solid silver;
+    width: 50%;
+    content: "";
+  } */
 .thongdiep{
     margin: -50px 50px 50px;
     display: flex;
