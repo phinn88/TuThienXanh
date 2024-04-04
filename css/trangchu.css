@@ -8,7 +8,7 @@
 
 .slide{
     margin-top: 50px;
-    min-height: 150vh;
+    min-height: 100vh;
     min-width: 90vw;
     background-image:url("/img/AnhTrch1_low_op.png");
     display: flex;
@@ -52,7 +52,7 @@
     content: '  '; */
     display: flex;
     float: right;
-    margin-top: .8em; 
+    margin-top: .6em; 
     border-top: 1px solid white;
     width: 50%;
     content: "";
@@ -113,7 +113,7 @@
     flex-flow:column nowrap;
     flex:1 0;
     /* margin: 0px 150px; */
-    margin: 0vh 11vw;
+    margin: 0vh 10.5vw;
     justify-content: space-evenly;
     text-align: center;
     background-color: white;
@@ -131,7 +131,7 @@
     align-items: flex-start;
     align-content:start;
     /* margin-bottom: 100px; */
-    padding: 20px 0px 20px;
+    padding: 10px 0px 10px;
 }
 .thongdiep-content h6{
     font-size: 38px;
@@ -147,6 +147,7 @@
     /* margin-bottom: 100px; */
 }
 .thongdiep-content-yeuthong{
+
     display: flex;
     flex-flow:column nowrap;
     flex:1.2 0;
@@ -160,7 +161,7 @@
     text-align: center;
 }
 .thongdiep-content-yeuthong-text{
-    padding: 20px 10px 20px;
+    padding: 10px 1px 20px;
     text-overflow: clip;
 }
 .thongdiep-content-yeuthong h6{
@@ -174,6 +175,7 @@
     font-size: 26px;
     color: white;
     font-weight: 200;
+    margin-bottom: 30px;
 }
 /* Phi */
 /* dk */
