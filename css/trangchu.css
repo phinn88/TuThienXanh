@@ -1,35 +1,75 @@
 /* An */
 .slide__img{
     margin-top: 50px;
-    min-height: 50vh;
-    min-width: 50vw;
+    min-height: 150vh;
+    min-width: 90vw;
+    display: block;
 }
 
 .slide{
     margin-top: 50px;
-    min-height: 100vh;
-    min-width: 50vw;
+    min-height: 150vh;
+    min-width: 90vw;
     background-image:url("/img/AnhTrch1.png");
     display: flex;
-    align-items: center;
+    flex-flow: column nowrap;
+    /* align-items: center; */
     justify-content: center;
 }
-.test p::before{
+/* .slide:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 150px;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+    background-image: url("/img/AnhTrch1.png");
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+    z-index: 0;
+  } */
+  
+.slide-text{
+    margin:20vh 0vw 20vh 10vw;
+    flex: 1 1;
+    color: white;
+}
+.slide-text-title{
+    display: flex;
+    padding-left:1vw;
+}
+.slide-text-title::before{
     background: white;
 }
-.test p::after{
-    background: black;
-    height: 2px;
+.slide-text-title::after{
+    /* background: black;
+    height: 10px;
     flex: 1;
-    content: '';
+    content: '  '; */
+    display: flex;
+    float: right;
+    margin-top: .8em; 
+    border-top: 1px solid white;
+    width: 50%;
+    content: "";
 }
-.left:after {
-    background: none;
-  }
-  h2.right:before {
-    background: none;
-  }
-.slide-text p:before,
+.slide-text-middle{
+    border-left: 1px solid white;
+    padding: 3vw;
+    justify-content:space-around;
+}
+.slide-text-middle h{
+    font-size: 38px;
+    font-weight: 400;
+}
+.slide-text-middle p{
+    font-size: 28px;
+    font-weight: 200;
+}
+/* .slide-text p:before,
 .slide-text p:after{
     display: flex;
     float: right;
@@ -37,8 +77,8 @@
     border-top: 2px solid silver;
     width: 50%;
     content: ""
-}
-/* .test{
+} */
+.test{
     margin: 20px;
     overflow :hidden;
     color: gray;
@@ -52,7 +92,7 @@
     border-top: 2px solid silver;
     width: 50%;
     content: "";
-  } */
+  }
 .thongdiep{
     margin: -50px 50px 50px;
     display: flex;
@@ -67,7 +107,7 @@
     flex-flow:column nowrap;
     flex:1 0;
     /* margin: 0px 150px; */
-    margin: 0vh 10vw;
+    margin: 0vh 11vw;
     justify-content: space-evenly;
     text-align: center;
     background-color: white;
@@ -114,10 +154,11 @@
     text-align: center;
 }
 .thongdiep-content-yeuthong-text{
-    padding: 20px 0px 20px;
+    padding: 20px 10px 20px;
+    text-overflow: clip;
 }
 .thongdiep-content-yeuthong h6{
-    font-size: 38px;
+    font-size: 36px;
     font-weight: 300;
     color: white;
     margin: 0px 0px 0px;
