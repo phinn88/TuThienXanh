@@ -2,3 +2,11 @@
   font-family: "Montserrat";
   src:url(/font/Montserrat/Montserrat-VariableFont_wght.ttf);
 }
+@font-face {
+  font-family: "Old Standard TT";
+  src:url(/font/Old_Standard_TT/OldStandardTT-Regular.ttf);
+}
+@font-face {
+  font-family: "Montaga";
+  src:url(/font/Montaga/Montaga-Regular.ttf);
+}
