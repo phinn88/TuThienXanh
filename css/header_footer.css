@@ -25,22 +25,26 @@ header {
     flex-basis: 70%;
 }
 .menu-button-content {
+}
+.menu-button-content-text {
     color: white;
     display: block;
-    padding: 0 30px;
     font-size: 1.3vw;
     font-weight: 520;
     text-align: center;
-}
-.menu-button-content-text {
+    padding: 0 30px;
     text-decoration: none;
-    color: white;
+}
+.menu-button-content-text:hover {
+    background-color: #448332;
+    /* background-color:white; */
+    /* font-weight: 680; */
+    /* color:#60B847; */
+    color: lavenderblush;
+    cursor: pointer;
 }
 .menu-button-content:hover {
-    color:#60B847;
-    background-color: white;
-    cursor: pointer;
-    font-weight: 680;
+    /* background-color: white; */
 }
 .logo {
 }
