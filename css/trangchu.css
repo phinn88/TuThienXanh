@@ -27,6 +27,7 @@
     display: flex;
     padding-left:1vw;
     font-family: 'Montaga';
+    margin-bottom: 5vh;
 }
 .slide-text-title::before{
     background: white;
@@ -39,26 +40,27 @@
     display: flex;
     float: right;
     margin-top: .6em; 
+    margin-right: 70vw;
     border-top: 1px solid white;
     width: 50%;
     content: "";
 }
 .slide-text-middle{
     border-left: 1px solid white;
-    padding: 3vw;
+    padding: 2vw;
     font-family:'Old Standard TT';
     justify-content:space-around;
 }
 .slide-text-middle h{
     font-size: 38px;
-    font-weight: 600;
+    font-weight: 400;
 }
 .slide-text-middle p{
-    font-size: 28px;
+    font-size: 32px;
     /* font-weight: 200; */
 }
 .slide-text-bottom{
-    font-size: 28px;
+    font-size: 32px;
     font-family:'Old Standard TT';
 }
 
