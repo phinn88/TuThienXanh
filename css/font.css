@@ -6,3 +6,7 @@
   font-family: "Old Standard TT";
   src:url(/font/Old_Standard_TT/OldStandardTT-Regular.ttf);
 }
+@font-face {
+  font-family: "Montaga";
+  src:url(/font/Montaga/Montaga-Regular.ttf);
+}
