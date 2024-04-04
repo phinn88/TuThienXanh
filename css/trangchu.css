@@ -40,6 +40,7 @@
 .slide-text-title{
     display: flex;
     padding-left:1vw;
+    font-family: 'Montaga';
 }
 .slide-text-title::before{
     background: white;
@@ -69,6 +70,10 @@
 .slide-text-middle p{
     font-size: 28px;
     /* font-weight: 200; */
+}
+.slide-text-bottom{
+    font-size: 28px;
+    font-family:'Old Standard TT';
 }
 /* .slide-text p:before,
 .slide-text p:after{
