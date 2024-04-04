@@ -16,21 +16,7 @@
     /* align-items: center; */
     justify-content: center;
 }
-/* .slide:before {
-    content: ' ';
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 150px;
-    width: 100%;
-    height: 100%;
-    opacity: 0.1;
-    background-image: url("/img/AnhTrch1.png");
-    background-repeat: no-repeat;
-    background-position: 50% 0;
-    background-size: cover;
-    z-index: 0;
-  } */
+
   
 .slide-text{
     margin:20vh 0vw 20vh 10vw;
@@ -75,15 +61,7 @@
     font-size: 28px;
     font-family:'Old Standard TT';
 }
-/* .slide-text p:before,
-.slide-text p:after{
-    display: flex;
-    float: right;
-    margin-top: .8em; 
-    border-top: 2px solid silver;
-    width: 50%;
-    content: ""
-} */
+
 .test{
     margin: 20px;
     overflow :hidden;
@@ -114,7 +92,7 @@
     flex:1 0;
     /* margin: 0px 150px; */
     margin: 0vh 10.5vw;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     text-align: center;
     background-color: white;
     
@@ -153,7 +131,7 @@
     flex:1.2 0;
     justify-content: space-evenly;
 
-    margin:-10vh 0px 10vw;
+    margin:-10vh 0px 11vh;
     background-color: #448332;
     border-radius: 5px;
 
