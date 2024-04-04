@@ -10,7 +10,7 @@
     margin-top: 50px;
     min-height: 100vh;
     min-width: 90vw;
-    background-image:url("/img/AnhTrch1_low_op.png");
+    background-image:url("../img/AnhTrch1_low_op.png");
     display: flex;
     flex-flow: column nowrap;
     /* align-items: center; */
