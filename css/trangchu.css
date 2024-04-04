@@ -10,7 +10,7 @@
     margin-top: 50px;
     min-height: 150vh;
     min-width: 90vw;
-    background-image:url("/img/AnhTrch1.png");
+    background-image:url("/img/AnhTrch1_low_op.png");
     display: flex;
     flex-flow: column nowrap;
     /* align-items: center; */
@@ -59,15 +59,16 @@
 .slide-text-middle{
     border-left: 1px solid white;
     padding: 3vw;
+    font-family:'Old Standard TT';
     justify-content:space-around;
 }
 .slide-text-middle h{
     font-size: 38px;
-    font-weight: 400;
+    font-weight: 600;
 }
 .slide-text-middle p{
     font-size: 28px;
-    font-weight: 200;
+    /* font-weight: 200; */
 }
 /* .slide-text p:before,
 .slide-text p:after{
