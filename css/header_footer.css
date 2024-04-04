@@ -32,6 +32,10 @@ header {
     font-weight: 520;
     text-align: center;
 }
+.menu-button-content-text {
+    text-decoration: none;
+    color: white;
+}
 .menu-button-content:hover {
     color:#60B847;
     background-color: white;
