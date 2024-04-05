@@ -133,7 +133,7 @@ body {
   font-size: 1.3 vw;
   line-height: 5vh;
   max-height: 15vh;
-  background-color: rgb(168, 233, 188);
+  background-color: #c6e5bd;
   border-radius: 5px;
   overflow: hidden;
 }
@@ -230,13 +230,13 @@ body {
 .other-news-article img {
   display: block;
   max-width: 100%;
-  height: 35vh;
+  height: 33vh;
   overflow: hidden;
   border-radius: 10px 10px 0 0;
 }
 .other-news-article h3 {
   max-width: 100%;
-  height: 4.6vh;
+  height: 4vh;
   background-color: black;
   color: white;
   padding: 2%;
