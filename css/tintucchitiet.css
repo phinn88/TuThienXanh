@@ -80,13 +80,13 @@
     background-image: url("/img/tintuc/chungtayhuong.jpg");
 }
 .tin4 {
-    background-image: url("/img/tintuc/CuuTroLuLut/mien-trung-co-the-hung-chiu.jpg");    
+    background-image: url("../../../img/tintuc/CuuTroLuLut/cung-bao-nguoi-lao-dong-cuu-tro-dong-bao-mien-trung.webp");    
 }
 .tin5 {
-    background-image: url("/img/tintuc/mualudondap.jpg");
+    background-image: url("../../../img/tintuc/VongTayNhanAi/chao-yeu-thuong-lan-1.jpg");
 }
 .tin6 {
-    background-image: url("/img/tintuc/mualulaichau.jpg");  
+    background-image: url("../../../img/tintuc/van-dong-tai-tro-trung-thu.jpg");  
 }
 .tin-text{
     overflow: hidden;
