@@ -159,6 +159,11 @@
 }
 /* Phi */
 /* Project */
+.project__ {
+    font-size: 38px;
+    font-weight: 600;
+    margin: 150px 0 30px 100px;
+}
 .project {
     width: 100%;
     /* height: 1000px; */
@@ -190,11 +195,10 @@
     background-image: url(/img/TrangChu/project/traidat.jpg);
 }
 .project__box2 {
-    background-image: url(/img/TrangChu/project/vongtaynhanai.jpg);
+    background-image: url(/img/TrangChu/project/namtayyeuthuong.png);
 }
 .project__box3 {
     background-image: url(/img/TrangChu/project/traitimchoem.png);
-    
 }
 .project__box4 {
     background-image: url(/img/TrangChu/project/taybac.jpg);
@@ -202,6 +206,10 @@
 .back_white {
     background-color: #FAFAFA;
     color: #000;
+    font-weight: 700;
+}
+.back_white .project__link a {
+    color: white;
 }
 .project__title {
     font-size: 24px;
@@ -231,7 +239,12 @@
     line-height: 1.23536;
     font-weight: 500;
     margin-top: 5px;
-    color: #2997ff;
+    color: rgb(235, 235, 235);
+}
+.project__link a:hover {
+    /* text-decoration: solid;
+    transition: cubic-bezier(0.19, 1, 0.22, 1); */
+    color: rgb(205, 205, 205);
 }
 /* dk */
 .dangky {
