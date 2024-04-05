@@ -36,6 +36,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 70%;
 }
 /* Gioi y */
 .goiy {
@@ -118,4 +119,7 @@
     font-style: italic;
     font-weight: 500;
     color: #7B7777;
+}
+.bold-text {
+    font-weight: bold;
 }
