@@ -158,6 +158,81 @@
     margin-bottom: 30px;
 }
 /* Phi */
+/* Project */
+.project {
+    width: 100%;
+    /* height: 1000px; */
+    margin: 7px 7px 14px 7px;
+    /* background-color: beige; */
+}
+.project__top {
+    /* margin-bottom: 14px; */
+    width: 100%;
+    display: flex;
+}
+.project__bottom {
+    width: 100%;
+    display: flex;
+}
+.project__box {
+    background-color: #6CBD41;
+    width: 50%;
+    margin: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+.project__box1 {
+    background-image: url(/img/TrangChu/project/traidat.jpg);
+}
+.project__box2 {
+    background-image: url(/img/TrangChu/project/vongtaynhanai.jpg);
+}
+.project__box3 {
+    background-image: url(/img/TrangChu/project/traitimchoem.png);
+    
+}
+.project__box4 {
+    background-image: url(/img/TrangChu/project/taybac.jpg);
+}
+.back_white {
+    background-color: #FAFAFA;
+    color: #000;
+}
+.project__title {
+    font-size: 24px;
+    /* text-align: center; */
+    margin-top: 50px;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+.project__img {
+    width: 35%;
+    /* align-items: center; */
+    margin-left: 0;
+    margin-right: 0;
+}
+.project__content {
+    font-size: 20px;
+    /* text-align: center; */
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+.project__link {
+    text-align: center;
+}
+.project__link a {
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 1.23536;
+    font-weight: 500;
+    margin-top: 5px;
+    color: #2997ff;
+}
 /* dk */
 .dangky {
     position: relative;
