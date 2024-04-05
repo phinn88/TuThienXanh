@@ -58,35 +58,43 @@
     background-color: #D9D9D9;
     max-height: 18vh;
     background-size: cover;
-    text-shadow:
+    background-size: cover;
+    background-color: rgba(136, 134, 134, 0.9);
+    background-blend-mode: multiply;
+    /* text-shadow:
     1px 1px 0.5px #000,
     -1px 1px 0.5px #000,
     -1px -1px 0.5px #000,
-    1px -1px 0.5px #000;
+    1px -1px 0.5px #000; */
     /* overflow:hidden; */
-    
 
     /* background-image: url("https://tse1.mm.bing.net/th?id=OIP.Ln6Y7Uy_2VEE-BgU1_GT5QHaEK&pid=Api&P=0&h=180"); */
 }
 
 .tin1 {
-    background-image: url("/img/tintuc/traotangxelan.jpg");
-    
+    background-image: url("../img/tintuc/CuuTroLuLut/cac-tinh-mien-trung-tiep-tuc-ganh-1.webp");
+    background-size: cover;
+    background-color: rgba(136, 134, 134, 0.9);
+    background-blend-mode: multiply;
 }
 .tin2 {
-    background-image: url("/img/tintuc/LuMuongLa.jpg");
+    background-image: url("../img/tintuc/CuuTroLuLut/mien-trung-co-the-hung-chiu.jpg");
+    background-size: cover;
+    background-color: rgba(136, 134, 134, 0.9);
+    background-blend-mode: multiply;
 }
 .tin3 {
-    background-image: url("/img/tintuc/chungtayhuong.jpg");
+    background-image: url("../img/tintuc/CuuTroLuLut/mien-trung-so-tan-1.jpg");
 }
 .tin4 {
-    background-image: url("/img/tintuc/CuuTroLuLut/mien-trung-co-the-hung-chiu.jpg");    
+    background-image: url("../img/tintuc/CuuTroLuLut/cung-bao-nguoi-lao-dong-cuu-tro-dong-bao-mien-trung.webp");    
 }
 .tin5 {
-    background-image: url("/img/tintuc/mualudondap.jpg");
+    background-image: url("../img/tintuc/VongTayNhanAi/chao-yeu-thuong-lan-1.jpg");
 }
 .tin6 {
-    background-image: url("/img/tintuc/mualulaichau.jpg");  
+    background-image: url("../img/tintuc/van-dong-tai-tro-trung-thu.jpg");
+    background-blend-mode:calc(0.5);
 }
 .tin-text{
     overflow: hidden;
