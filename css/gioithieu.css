@@ -4,9 +4,9 @@ body {
 .no-list {
     list-style: none;
 }
-/* body {
+body {
     font-family: "Montserrat", sans-serif;
-} */
+}
 /* SuMenh */
 .SuMenh {
     margin: 0px 100px;
@@ -81,10 +81,6 @@ body {
     flex-flow: row nowrap;
     width: 100%;
 }
-/* MucTieu */
-.MucTieu {
-
-}
 /* QuyTac */
 .QuyTac{
     margin: 100px 100px;
@@ -95,13 +91,15 @@ body {
     color: #60B847;
 }
 .QuyTac-box1 {
-
+    border-left:4px solid #60B847; 
 }
 .QuyTac-box1 h6{
     color: #7B7777;
     font-size:20px;
     font-style: italic;
     font-weight:400;
+    margin-left: 1vw;
+    text-align: justify;
 }
 .QuyTac-box2 {
     display: flex;
@@ -214,5 +212,21 @@ body {
 .DanhSach-title1 {
 }   
 .DanhSach-title2 {
+
+}
+@media only screen and (max-width: 739px) {
+    
+    .QuyTac{
+        margin: 10vh 10vw;
+    }
+    .QuyTac-title {
+        font-size: 5.2vw;
+    }
+    .QuyTac-box1 h6{
+        font-size: 3vw;
+    }
+    .QuyTac-box2-content {
+        width: 90%;
+    }
 
 }
