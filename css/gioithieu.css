@@ -231,5 +231,7 @@ body {
     .QuyTac-box2-content {
         width: 90%;
     }
-
+    #QuyTac-box2-ct2 {
+        background-color: #feeeee;
+    }
 }
