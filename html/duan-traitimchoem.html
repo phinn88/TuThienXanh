@@ -47,12 +47,17 @@
               <li class="navi-bar-content"><a href="./duan-tuthientaybac.html">Từ thiện Tây Bắc</a></li>
               <li class="navi-bar-content"><a href="./duan-cuutrolulut.html">Cứu trợ lũ lụt</a></li>
             </ul>
+            <div class="scroll-buttons">
+              <img src="/img/left-icon.png" class="scroll-left" alt="Scroll Left" style="height: 2vh; width: 1.5vw;">
+              <img src="/img/right-icon.png" class="scroll-right" alt="Scroll Right" style="height: 2vh; width: 1.5vw;">
+            </div>
         </div>
         <div class="container-1">
           <div class="tin-noi-bat">TIN TỨC NỔI BẬT</div>
           <div class="tin-tuc-moi">TIN TỨC MỚI</div>
         </div>
         <div class="container">
+          <div class="noi-bat">TIN TỨC NỔI BẬT</div>
             <div class="hot-news">
               <div class="hot-news-left">
                 <div class="hot-news-left-img">
@@ -69,6 +74,7 @@
                   </p>
               </div>
             </div>
+            <div class="tin-moi">TIN TỨC MỚI</div>
               <div class="hot-news-right">
                 <div class="hot-news-right-article">
                     <div class="hot-news-right-article-img">
@@ -201,5 +207,15 @@
             <p class="end">Giấy phép hoạt động trang thông tin điện tử tổng hợp số    /GP-STTTT, HCM ngày   /  /2013 <br> Giấy xác nhận cung cấp dịch vụ mạng xã hội trực tuyến số /GXN-TTĐT - Bộ TTTT, HN ngày   /   /2014</p>
         </div>
     </footer>
+    <script>
+      document.querySelector('.scroll-left').addEventListener('click', function() {
+        const grid = document.querySelector('.navi-button');
+        grid.insertBefore(grid.lastElementChild, grid.firstElementChild);
+      });
+      document.querySelector('.scroll-right').addEventListener('click', function() {
+        const grid = document.querySelector('.navi-button');
+        grid.appendChild(grid.firstElementChild);
+      });
+   </script>
 </body>
 </html>
