@@ -1,28 +1,29 @@
+body {
+    margin-top: 100px;
+}
 .container {
     max-width: 920px;
-    margin: 3% auto;
+    margin: 1.5% auto;
     background-color: #477b2e;
     border-radius: 15px;
 }
 h1 {
-    padding-top: 2%;
     color: #60B847;
     text-align: center;
 }
-/* .error-message {
-    color: red;
-} */
 .form {
     color: white;
 }
 .para1 {
     padding-top: 2%;
     color: white;
-    margin-left: 2%;
+    margin-left: 3%;
+    text-align: justify;
 }
 .para2 {
     color: white;
-    margin-left: 2%;
+    margin-left: 3%;
+    text-align: justify;
 }
 .form-section {
     margin-bottom: 2%;
@@ -60,10 +61,73 @@ select {
     border-radius: 5px;
     background-color: #c0d4b7;
 }
+.date-note {
+    margin-left: 75%;
+    font-size: 1.4vw;
+}
 #submit-button {
     height: 5vh;
     margin-left: 75%;
     margin-bottom: 2%;
     border-radius: 8px;
     background-color: #c0d4b7;
+    font-size: 1.4vw;
+}
+@media only screen and (max-width: 739px) {
+    body {
+        margin-top: 100px;
+    }
+    .container {
+        border-radius: 20px;
+    }
+    h1 {
+        font-size: 4vw;
+    }
+    .para1 {
+        margin-left: 5%;
+    }
+    .para2 {
+        margin-left: 5%;
+    }
+    .form-section {
+        margin-bottom: 1%;
+    }
+    .form-section h2 {
+        margin-left: 3%;
+    }
+    /* .Form-Section-Infor {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        margin-left: 5%;
+        align-items: center;
+    } */
+    label {
+        text-align: left;
+    }
+    input {
+        width: 95%;
+        height: 20px;
+        max-width: 20vw;
+        border-radius: 4px;
+    }
+    textarea {
+        width: 240%;
+        border-radius: 4px;
+    }
+    select {
+        width: 70%;
+        max-width: 15vw;
+        height: 20px;
+        border-radius: 4px;
+    }
+    .date-note {
+        margin-left: 70%;
+        font-size: 2vw;
+    }
+    #submit-button {
+        height: 4vh;
+        margin-left: 70%;
+        border-radius: 6px;
+        font-size: 2vw;
+    }
 }
