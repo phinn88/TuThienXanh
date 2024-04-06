@@ -225,6 +225,9 @@ body {
     .QuyTac-box1 h6{
         font-size: 3vw;
     }
+    .QuyTac-box2 {
+        justify-content: center;
+    }
     .QuyTac-box2-content {
         width: 90%;
     }
