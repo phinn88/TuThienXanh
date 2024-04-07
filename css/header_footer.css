@@ -139,7 +139,7 @@ footer {
 
 }
 .right-list-content-text{
-    margin-top: 1vw;
+    margin-top: 1.25vw;
 }
 
 .right p{
@@ -183,10 +183,12 @@ footer {
 
     }
     .right-list-content-text{
-        margin-top: 1vw;
+        margin-top: 1.5vw;
+        margin-left: 1vw;
     }
     .right-list-content-icon{
         line-height: 1.65em;
+        margin-right: 2.5vw;
         /* padding-top: 10px; */
     }
 
