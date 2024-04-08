@@ -188,6 +188,7 @@ body {
     color: white;
     background-color: #60B847;
     text-wrap: wrap;
+    overflow: hidden;
 }
 .DanhSach-box-content {
     
@@ -208,6 +209,7 @@ body {
 }
 .DanhSach-end-paragraph {
     line-height: 2;
+    text-align: justify;
 }
 .DanhSach-title1 {
 }   
@@ -215,7 +217,62 @@ body {
 
 }
 @media only screen and (max-width: 739px) {
-    
+    .LienKet {
+        margin: 0 10px;
+    }
+    .LienKet-title {
+        font-size: 5.2vw;
+    }
+    .lienKet-box-title {
+        font-size: 14px;
+        padding: 15px 7px;
+    }
+    .LienKet-box-content {
+        flex-direction: column;
+    }
+    .LienKet-box-content-right {
+        max-width: 100%;
+        margin: 0;
+    }
+    .LienKet-box-content ul{
+        margin: 0 20px 0 0;
+        padding-inline-start: 0;
+    }
+    .LienKet-box-content-left {
+        max-width: 100%;
+        margin:0;
+    }
+    .LienKet-content {
+        width: 100%;
+        font-size: 14px;
+        /* margin-right: 30px; */
+    }
+    .DanhSach {
+        flex-direction: column;
+        margin: 10px 15px 10px 10px;
+    }
+    .DanhSach-box-title {
+        font-size: 14px;
+        padding: 15px 7px;
+    }
+    .DanhSach-box {
+        width: 100%;
+        margin: 0;
+    }
+    .DanhSach-box ul {
+        padding-inline-start: 0;
+    }
+    .DanhSach-content {
+        font-size: 14px;
+        width: 100%;
+        margin-left: 8px;
+    }
+    .DanhSach-end {
+        width: 100%;
+        font-size: 12px;
+    }
+    .DanhSach-end-paragraph {
+    }
     .QuyTac{
         margin: 10vh 10vw;
     }

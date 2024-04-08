@@ -1,3 +1,7 @@
+html {
+    margin: 0;
+    width: 100%;
+}
 body {
     margin: 0;
     font-family:"Montserrat", 'Times New Roman';
@@ -25,6 +29,7 @@ header {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     line-height: 80px;
+    margin-top: 0;
     margin: auto;
     flex-basis: 70%;
 }
@@ -50,11 +55,9 @@ header {
 .menu-button-content:hover {
     /* background-color: white; */
 }
-.logo {
-}
 .logo-img {
-    width: 65%;
-    height: auto;
+    width: auto;
+    height: 80px;
     margin: 0 15%;
 }
 .search {
@@ -159,12 +162,30 @@ footer {
 }
 /* Mobile */
 @media (max-width: 739px) {
-    .menu-button {
+    header {
+        width: 100%;
+        /* overflow: hidden; */
+    }
+    /* .logo {
+        display: none;
+    } */
+    .menu {
         display: none;
     }
+    .menu-button {
+        display: none;
+        margin: 0;
+        padding: 0;
+    }
+    /* .search {
+        display: none;
+    } */
     footer{
         flex-flow: column wrap;
         font-size: 14px;
+    }
+    .search {
+        display: none;
     }
     .left{
         order: 2;
