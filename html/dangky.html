@@ -40,6 +40,9 @@
     </header>
     <!-- Body -->
     <div class="body">
+        <div class="load">
+            <img src="/img/loader.gif" alt="Thien Nguyen Xanh - loading">
+        </div>
         <h1>Đăng ký gia nhập Thiện Nguyện Xanh</h1>
         <div class="container">
             <p class="para1">Trên tinh thần tự nguyện và mong muốn giúp đỡ những hoàn cảnh khó khăn. Căn cứ vào Quy tắc hoạt động của CLB, tôi nhận thấy bản thân mình phù hợp để tham gia CLB Thiện Nguyện Xanh. Vì vậy, tôi kính đề nghị Ban Chủ nhiệm CLB cho phép tôi trở thành thành viên của Thiện Nguyên Xanh.
@@ -149,7 +152,13 @@
       <p id="alert-loithoai"></p>
     </div>
 </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 <script>
+    $(window).on('load', function(event) {
+        $('body').removeClass('body');
+        $('.load').delay(1500).fadeOut('fast');
+    });
+
     var today = new Date();
     var dd = String(today.getDate()).padStart(2, '0');
     var mm = String(today.getMonth() + 1).padStart(2, '0');
