@@ -152,11 +152,11 @@ body {
     width: 100%;
 }
 .LienKet-box-content-right {
-    max-width: 60%;
+    width: 50%;
 }
 .LienKet-box-content-left {
-    max-width: 50%;
-    margin-right: 4%;
+    width: 50%;
+    margin-right: 4px;
 }
 .LienKet-content {
     font-size: 20px;
@@ -218,20 +218,20 @@ body {
 }
 @media only screen and (max-width: 739px) {
     .LienKet {
-        margin: 0 10px;
+        margin: 0 16px;
     }
     .LienKet-title {
-        font-size: 5.2vw;
+        font-size: 5.8vw;
     }
     .lienKet-box-title {
-        font-size: 14px;
+        font-size: 16px;
         padding: 15px 7px;
     }
     .LienKet-box-content {
         flex-direction: column;
     }
     .LienKet-box-content-right {
-        max-width: 100%;
+        width: 100%;
         margin: 0;
     }
     .LienKet-box-content ul{
@@ -239,7 +239,7 @@ body {
         padding-inline-start: 0;
     }
     .LienKet-box-content-left {
-        max-width: 100%;
+        width: 100%;
         margin:0;
     }
     .LienKet-content {
@@ -249,10 +249,10 @@ body {
     }
     .DanhSach {
         flex-direction: column;
-        margin: 10px 15px 10px 10px;
+        margin: 18px 22px 22px 18px;
     }
     .DanhSach-box-title {
-        font-size: 14px;
+        font-size: 16px;
         padding: 15px 7px;
     }
     .DanhSach-box {
