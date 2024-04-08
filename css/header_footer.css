@@ -142,6 +142,9 @@ footer {
     align-self: center;
     /* max-width: 60%; */
 }
+.right-span{
+    display: none;
+}
 .right1 {
     list-style: none;
     align-items:inherit;
@@ -176,6 +179,9 @@ footer {
     position: relative;
     margin:40px 0px 0px 0px;
     bottom: 0px;
+}
+.end{
+    display: none;
 }
 /* Responsive Mobie */
 /* PC */
@@ -238,5 +244,14 @@ footer {
         margin-right: 2.5vw;
         /* padding-top: 10px; */
     }
-
+    .end1{
+        display: none;
+    }
+    .end{
+        display: block;
+        color: white;
+    }
+    .right-span{
+        display: block;
+    }
 }
