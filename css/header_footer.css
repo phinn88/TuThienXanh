@@ -116,6 +116,9 @@ footer {
     display: flex;
     flex-flow: row nowrap ;
 }
+#hide-desktop{
+    display: none;
+}
 .left {
     margin-left: 50px;
     display: flex;
@@ -172,6 +175,7 @@ footer {
 }
 .right-list-content-text{
     margin-top: 1.25vw;
+    margin-left: 1vw;
 }
 
 .right p{
@@ -181,7 +185,7 @@ footer {
     bottom: 0px;
 }
 .end{
-    display: none;
+    /* display: none; */
 }
 /* Responsive Mobie */
 /* PC */
@@ -223,6 +227,7 @@ footer {
         order: 2;
         font-size: 14px;
         max-width: 100%;
+        margin-left: 3.6vw;
     }
     .right{
         order: 1;
@@ -237,21 +242,35 @@ footer {
     }
     .right-list-content-text{
         margin-top: 1.5vw;
-        margin-left: 1vw;
+        margin-left: 2vw;
     }
     .right-list-content-icon{
         line-height: 1.65em;
-        margin-right: 2.5vw;
+        margin-right: 1vw;
         /* padding-top: 10px; */
     }
-    .end1{
+    
+    .end{
+        color: white;
+        display: flex;
+    }
+    #hide-desktop-flex{
+        display: flex;
+    }
+    #hide-mobile{
         display: none;
     }
-    .end{
-        display: block;
-        color: white;
-    }
+    
     .right-span{
         display: block;
+    }
+    .mobile-bottom{
+        display: flex;
+        order: 3;
+        flex-flow: row nowrap;
+    }
+    .mobile-bottom img{
+        margin: 2vw;
+        height: 12vw;
     }
 }
