@@ -2,72 +2,86 @@ body {
     margin-top: 60px;
 }
 /* body lien he */
-.list-contact {
-    list-style: none;
+.title {
+    font-size: 2.2vw;
+    margin-top: 60px;
+    float: left;
+    color: rgb(32, 63, 23);
 }
 .title-box {
     display: flex;
-    margin-left: 124px;
-}
-.title {
-    font-size: 32px;
-    margin-top: 60px;
-    /* float: left; */
-    color: rgb(32, 63, 23);
+    margin-left: 9vw;
 }
 .title-link {
     color: rgba(32, 63, 23, 0.7);
 }
+.contact {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -3%;
+}
+.video-contact {
+    width: 40%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video-contact video {
+    display: block;
+    width: 200%;
+    max-height: 60vh;
+}
 .list-contact {
-    margin-left: 221px;
-    font-size: 28px;
+    list-style: none;
+    width: 60%;
+    font-size: 1.8vw;
     font-weight: 700;
+}
+.list-contact-content {
+    display: grid;
+    grid-template-columns: 10% 90%;
+    align-items: center;
 }
 .list-noidung-title {
     color: rgba(32, 63, 23,0.45);
+    line-height: 2vw;
 }
 .list-noidung-title-chi-tiet {
+    margin-top: -1vh;
     color: rgb(32, 63, 23);
+    line-height: 2vw;
 }
 .list-contact-icon {
     color: #60B847;
-    padding: 10px;
-    position: absolute;
-    top: 35px;
-    left: -60px;
-}
-.list-contact-content {
-    padding: 10px 0;
-    display: flex;
-    position: relative;
-}
-.list-noidung {
-    line-height: 0.32; 
 }
 .button-area{
     display: flex;
-    margin:124px 221px;
     flex-flow: row nowrap;
-    font-size: 28px;
+    font-size: 1.6vw;
+    padding-bottom: 3vh;
 }
 .button{
     display: flex;
-    /* margin-left: 124px; */
     flex: 1 1;
-    align-self: center;
-    background-color: rgba(96, 184, 71, 0.35);
-    /* opacity: 35%; */
-    align-items: center;
-    border-radius:40px;
-    margin:0px 75px
-}
-.button-text{
     color: #203F17;
+    align-self: center;
+    align-items: center;
+    background-color: rgba(96, 184, 71, 0.35);
+    border-radius: 40px;
+    border: solid #60B847 0.2vw;
+    margin: 0 12%;
+}   
+.button-text{
     flex-grow: 1;
     opacity: 100%;
     font-weight:700;
-    margin:18px 0px;
-    /* align-self: center; */
+    margin: 1.8vh 0;
     text-align: center;
 }
-/* Gặp nhau cuối năm */
+.button:hover {
+    background-color: #60B847;
+    border: solid rgba(96, 184, 71, 0.35) 0.2vw;
+    color: white;
+    cursor: pointer;
+}
