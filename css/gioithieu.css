@@ -99,6 +99,8 @@ body {
     font-style: italic;
     font-weight:400;
     margin-left: 1vw;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
     text-align: justify;
 }
 .QuyTac-box2 {
@@ -340,4 +342,27 @@ body {
     .SuMenh-box2 h6{
         font-size: 12px;
     }
+    .QuyTac{
+        font-size: 12px;
+        margin: 6.5vw;
+    }
+    .QuyTac h6{
+
+    }
+    .QuyTac-title{
+        font-size: 15px;
+    }
+    .QuyTac-box2-content{
+        width: 100%;
+    }
+    .LienKet{
+        font-size: 12px;
+    }
+    .LienKet-title{
+        font-size: 15px;
+    }
+    .lienKet-box-title{
+        font-size: 15px;
+    }
+    
 }

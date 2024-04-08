@@ -116,7 +116,7 @@ footer {
     display: flex;
     flex-flow: row nowrap ;
 }
-#hide-desktop{
+#hide-desktop-flex{
     display: none;
 }
 .left {
