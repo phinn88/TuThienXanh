@@ -143,7 +143,7 @@
     </div>
     <!-- Dang ky -->
     <div class="dangky">
-        <img class="dangky__img id=test" src="../img/TrangChu/dk.png" alt="">
+        <img class="dangky__img" id="test" src="../img/TrangChu/dk.png" alt="">
         <div class="dangky__content">
             <img class="dangky__icon" src="../img/TrangChu/icondangky.png" alt="">
             <h1 class="dangky__title">BẠN MUỐN TRỞ THÀNH TÌNH NGUYỆN VIÊN</h1>
@@ -246,10 +246,12 @@
         </div>
         <!-- <p class="end">Giấy phép hoạt động trang thông tin điện tử tổng hợp số    /GP-STTTT, HCM ngày   /  /2013 <br> Giấy xác nhận cung cấp dịch vụ mạng xã hội trực tuyến số /GXN-TTĐT - Bộ TTTT, HN ngày   /   /2014</p> -->
     </footer>
-    <script>
-        window.onload=function abcd(){
-            document.getElementById("test").src='../img/TrangChu/icondangky.png';
-        }
-    </script>
+    
 </body>
+<script>
+    function changeImgsrc(){
+        document.getElementById("test").src="../img/TrangChu/icondangky.png";
+    }
+    window.onload=changeImgsrc();
+</script>
 </html>
