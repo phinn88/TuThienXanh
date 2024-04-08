@@ -290,6 +290,10 @@
     text-decoration: none;
     margin-left: 0px;
     margin-right: 0px;
+    font-size: 25px;
+}
+.dangky__button-text:hover {
+    color: azure;
 }
 /* Donate */
 .donate__title {
