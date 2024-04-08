@@ -29,6 +29,7 @@ body {
     align-items: center;
 }
 .video-name {
+    margin-left: 10%;
     text-align: justify;
     font-size: 1.6vw;
     font-weight: 500;
@@ -119,6 +120,7 @@ body {
     }
     .video-name {
         font-size: 2vw;
+        margin: -2% auto 2% auto;
     }
     .video-contact {
         order: 2;
@@ -142,8 +144,10 @@ body {
     .list-noidung-title-chi-tiet {
         line-height: 2.4vw;
     }
-    .button-area{
+    .button-area {
         font-size: 2vw;
-        margin-left: -4vw;
+    }
+    .button {
+        justify-content: space-between;
     }
 }
