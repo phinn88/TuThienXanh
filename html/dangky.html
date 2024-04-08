@@ -42,24 +42,23 @@
     <div class="body">
         <h1>Đăng ký gia nhập Thiện Nguyện Xanh</h1>
         <div class="container">
-            <P class="para1">Một đoạn văn bản ở đầu khoảng 3 - 5 dòng<br>
-            Một đoạn văn bản ở đầu khoảng 3 - 5 dòng<br>
-            Một đoạn văn bản ở đầu khoảng 3 - 5 dòng<br>
-            </P>
-            <form class="form">
-            <div class="form-section">
-                <h2>Phần 1. Giới thiệu</h2>
+            <p class="para1">Trên tinh thần tự nguyện và mong muốn giúp đỡ những hoàn cảnh khó khăn. Căn cứ vào Quy tắc hoạt động của CLB, tôi nhận thấy bản thân mình phù hợp để tham gia CLB Thiện Nguyện Xanh. Vì vậy, tôi kính đề nghị Ban Chủ nhiệm CLB cho phép tôi trở thành thành viên của Thiện Nguyên Xanh.
+            </p>  
+            <!-- action="./trangchu.html" -->
+            <form class="form" action="#" onsubmit="return gui_phan_hoi(event)">
+                <div class="form-section">
+                    <h2>Phần 1. Giới thiệu</h2>
                     <div class="Form-Section-Infor">
-                        <label for="fullname">Họ tên:</label>
-                        <input type="text" id="fullname" name="fullname" required maxlength="50">
+                        <label for="fullname" class="required">Họ tên:</label>
+                        <input type="text" id="fullname" name="fullname" maxlength="50">
                     </div><br>
                     <div class="Form-Section-Infor">
-                        <label for="birthdate">Ngày sinh:</label>
-                        <input type="date" id="birthdate" name="birthdate" required>
+                        <label for="birthdate" class="required">Ngày sinh:</label>
+                        <input type="date" id="birthdate" name="birthdate">
                     </div><br>
                     <div class="Form-Section-Infor">
                         <label for="gender">Giới tính:</label>
-                        <select id="gender" name="gender" required>
+                        <select id="gender" name="gender">
                             <option value="Nam">Nam</option>
                             <option value="Nữ">Nữ</option>
                         </select>
@@ -69,43 +68,43 @@
                         <input type="text" id="hometown" name="hometown">
                     </div><br>
                     <div class="Form-Section-Infor">
-                        <label for="address">Địa chỉ thường trú:</label>
-                        <input type="text" address1 name="address1" required placeholder="Xã/ Phường/ Thị trấn">  
-                        <input type="text" address2 name="address2" required placeholder="Quận/ Huyện">
-                        <input type="text" address3 name="address3" required placeholder="Tỉnh/ Thành phố">
+                        <label for="address1" class="required">Địa chỉ thường trú:</label>
+                        <input type="text" id="address1" name="address1" placeholder="Xã/ Phường/ Thị trấn">  
+                        <input type="text" id="address2" name="address2" placeholder="Quận/ Huyện">
+                        <input type="text" id="address3" name="address3" placeholder="Tỉnh/ Thành phố">
                     </div><br>
                     <div class="Form-Section-Infor">
-                        <label for="occupation">Nghề nghiệp:</label>
-                        <input type="text" id="occupation" name="occupation">
+                        <label for="job">Nghề nghiệp:</label>
+                        <input type="text" id="job" name="job">
+                    </div><br>
+                </div>
+                <div class="form-section">
+                    <h2>Phần 2. Thông tin liên hệ</h2>
+                    <div class="Form-Section-Infor">
+                        <label for="phone" class="required">Số điện thoại:</label>
+                        <input type="text" id="phone" name="phone">
+                    </div><br>
+                    <div class="Form-Section-Infor">
+                        <label for="email" class="required">Email:</label>
+                        <input type="email" id="email" name="email">
+                    </div><br>
+                    <div class="Form-Section-Infor">
+                        <label for="contact">Nhận phản hồi qua:</label>
+                        <select id="contact" name="contact">
+                            <option value="Số điện thoại">SĐT</option>
+                            <option value="Email">Email</option>
+                        </select>
+                    </div><br>
+                    <div class="Form-Section-Infor">
+                        <label for="want">Mong muốn khi tham gia CLB:</label>
+                        <textarea id="want" name="want" rows="4" cols="50"></textarea>
                     </div><br>
             </div>
-            <div class="form-section">
-                <h2>Phần 2. Thông tin liên hệ</h2>
-                <div class="Form-Section-Infor">
-                    <label for="phone">Số điện thoại:</label>
-                    <input type="text" id="phone" name="phone" required>
-                </div><br>
-                <div class="Form-Section-Infor">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-                </div><br>
-                <div class="Form-Section-Infor">
-                    <label for="contact_preference">Nhận phản hồi qua:</label>
-                    <select id="contact_preference" name="contact_preference" required>
-                        <option value="Số điện thoại">SĐT</option>
-                        <option value="Email">Email</option>
-                    </select>
-                </div><br>
-                <div class="Form-Section-Infor">
-                    <label for="expectation">Mong muốn khi tham gia CLB:</label>
-                    <textarea id="expectation" name="expectation" rows="4" cols="50"></textarea>
-                </div><br>
-            </div>
-            <p class="para2">Văn bản cuối cũng 3 - 5 dòng.<br>
-            Văn bản cuối cũng 3 - 5 dòng.<br>
-            Văn bản cuối cũng 3 - 5 dòng.<br>
+            <p class="para2">Tôi cam kết các thông tin trên là đúng sự thật và cam đoan sẽ thực hiện nghiêm chỉnh Quy tắc hoạt động, Quy tắc ứng xử của CLB.
+            <br><br><i>Mong CLB sớm phản hồi đơn đăng ký của tôi.</i>
+            <br><br><i>Tôi xin chân thành cảm ơn.</i><br>
             </p>
-            <p class="date-note">Ngày... tháng... năm...</p>
+            <p class="date-note" id="currentDate"></p>
             <button type="submit" id="submit-button">GỬI PHIẾU ĐĂNG KÝ</button>
             </form>
         </div>
@@ -144,5 +143,68 @@
         <p class="end">Giấy phép hoạt động trang thông tin điện tử tổng hợp số    /GP-STTTT, HCM ngày   /  /2013 <br> Giấy xác nhận cung cấp dịch vụ mạng xã hội trực tuyến số /GXN-TTĐT - Bộ TTTT, HN ngày   /   /2014</p>
     </div>
 </footer>
+<div class="hopthoai-alert">
+    <div class="alert-content">
+      <img src="/img/logo.png" alt="ẢNH THÔNG BÁO">
+      <p id="alert-loithoai"></p>
+    </div>
+</div>
+<script>
+    var today = new Date();
+    var dd = String(today.getDate()).padStart(2, '0');
+    var mm = String(today.getMonth() + 1).padStart(2, '0');
+    var year = today.getFullYear();
+    document.getElementById('currentDate').textContent = "Ngày " + dd + " tháng " + mm + " năm " + year + ".";
+
+    function customAlert(message) {
+        var hopthoaiAlert = document.querySelector('.hopthoai-alert');
+        var loithoaiAlert = document.getElementById('alert-loithoai');
+        loithoaiAlert.textContent = message;
+        hopthoaiAlert.style.display = 'block';
+
+        setTimeout(function() {
+          hopthoaiAlert.style.display = 'none';
+        }, 3000);
+    }
+
+    function gui_phan_hoi(event) {
+        event.preventDefault();
+        var fullname = document.getElementById("fullname").value;
+        var birthdate = new Date(document.getElementById("birthdate").value);
+        var phone = document.getElementById("phone").value;
+        var email = document.getElementById("email").value;
+        var tinh_tp = document.getElementById("address3").value;
+          if (fullname === '' || phone === '' || email === '' || tinh_tp === '') {
+            customAlert("Vui lòng kiểm tra lại: Họ tên, SĐT, Email, Địa chỉ thường trú.");
+            return false;
+          } else {
+              var currentYear = new Date().getFullYear();
+              var birthYear = birthdate.getFullYear();
+              var tuoi = currentYear - birthYear;
+              if (tuoi < 15) {
+                customAlert("Bạn cần từ 15 tuổi trở lên mới có thể tham gia.");
+                return false;
+              }
+
+              var noiHoatDong = ["Hà Nội", "Quảng Bình", "Lai Châu"];
+              if (!noiHoatDong.includes(tinh_tp)) {
+                customAlert("Xin lỗi, hiện tại chúng tôi chưa hoạt động ở " + tinh_tp + ".");
+                return false;
+              }
+
+              var thongbao = "Chúc mừng bạn " + fullname + " gửi đơn thành công. ";
+              var pthucLienHe = document.getElementById("contact").value;
+              if (pthucLienHe === "Số điện thoại") {
+                  thongbao += "Chúng tôi sẽ sớm gửi phản hồiđến số điện thoại: " + phone + ".";
+              } else {
+                  thongbao += "Chúng tôi sẽ sớm gửi phản hồi đến email: " + email + ".";
+              }
+              customAlert(thongbao, 3000).then(() => {
+                location.reload();
+              });
+              return true;
+          }
+      }
+</script>
 </body>
 </html>

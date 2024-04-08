@@ -18,11 +18,15 @@ h1 {
     padding-top: 2%;
     color: white;
     margin-left: 3%;
+    margin-right: 5%;
+    text-indent: 3em;
     text-align: justify;
 }
 .para2 {
     color: white;
     margin-left: 3%;
+    margin-right: 5%;
+    text-indent: 3em;
     text-align: justify;
 }
 .form-section {
@@ -62,17 +66,55 @@ select {
     background-color: #c0d4b7;
 }
 .date-note {
-    margin-left: 75%;
-    font-size: 1.4vw;
+    margin-left: 65%;
+    font-size: 1.2vw;
 }
 #submit-button {
     height: 5vh;
-    margin-left: 75%;
+    margin-left: 68%;
     margin-bottom: 2%;
     border-radius: 8px;
     background-color: #c0d4b7;
-    font-size: 1.4vw;
+    font-size: 1.2vw;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease;
 }
+#submit-button:hover {
+    color: white;
+    background-color: yellowgreen;
+    transform: translateY(-3px);
+    box-shadow: 5px 10px 20px black;
+}
+.hopthoai-alert {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 9999;
+}
+.alert-content {
+    text-align: center;
+}
+.alert-content img {
+    width: 50px; 
+    margin-bottom: 10px;
+}
+.alert-content p {
+    font-size: 18px;
+    margin: 0;
+}
+.required::after {
+    content: " *";
+    color: white;
+  }
 @media only screen and (max-width: 739px) {
     body {
         margin-top: 100px;
@@ -95,12 +137,6 @@ select {
     .form-section h2 {
         margin-left: 3%;
     }
-    /* .Form-Section-Infor {
-        display: grid;
-        grid-template-columns: 25% 25% 25% 25%;
-        margin-left: 5%;
-        align-items: center;
-    } */
     label {
         text-align: left;
     }
@@ -121,13 +157,20 @@ select {
         border-radius: 4px;
     }
     .date-note {
-        margin-left: 70%;
+        margin-left: 60%;
         font-size: 2vw;
     }
     #submit-button {
         height: 4vh;
-        margin-left: 70%;
+        margin-left: 64%;
         border-radius: 6px;
-        font-size: 2vw;
+        font-size: 1.8vw;
+    }
+    .para1, .para2 {
+        text-indent: 1em;
+        font-size: 2.3vw;
+    }
+    #alert-loithoai {
+        font-size: 14px;
     }
 }
