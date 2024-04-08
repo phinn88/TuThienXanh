@@ -9,26 +9,26 @@ body {
 }
 /* SuMenh */
 .SuMenh {
-    margin: 0px 100px;
+    margin: 0px 6.5vw;
     /* height: 500px; */
 }
 
 .SuMenh-title{
     color: #60B847;
     font-size: 60px;
-    margin:0px 40px 20px 0px;
+    margin:0px 4vw 2vw 0px;
 }
 .SuMenh-box1{
     color: #60B847;
     border-left:4px solid #60B847; 
-    margin:25px 0px;
+    margin:2vw 0px;
 }
 .SuMenh-box1 h6 {
     color: #7B7777;
     font-size:20px;
     font-style: italic;
     font-weight:400; 
-    margin: 0px 0px 0px 10px;
+    margin: 0px 0px 0px 1vw;
     /* border-top: 0px; */
     /* border-right: 0px; */
 }
@@ -64,7 +64,7 @@ body {
 .SuMenh-box2 h6{
     color: white;
     font-size: 20px;
-    
+    margin: 4vw;
 }
 .SuMenh-box2-content-right{
     max-width: 60%;
@@ -99,6 +99,8 @@ body {
     font-style: italic;
     font-weight:400;
     margin-left: 1vw;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
     text-align: justify;
 }
 .QuyTac-box2 {
@@ -291,4 +293,76 @@ body {
     #QuyTac-box2-ct2 {
         background-color: #feeeee;
     }
+}
+/* Responsive  */
+/* PC */
+@media (min-width: 1024px) {
+
+}
+/* Table */
+@media (min-width: 740px) and (max-width: 1023px) {
+
+}
+/* Mobile */
+@media (max-width: 739px) {
+    body{
+        font-size: 12px;
+    }
+    .SuMenh-title{
+        font-size: 15px;
+    }
+    .SuMenh-content{
+        font-size: 12px;
+    }
+    .SuMenh-box1 h6{
+        font-size: 12px;
+    }
+    .SuMenh-box1{
+        border-width: 1px;
+    }
+    .SuMenh-box2-title{
+        font-size: 15px;
+    }
+    .SuMenh-box2-content{
+        flex-flow: column;
+    }
+    .SuMenh-box2-content-left{
+        max-width: 100%;
+        padding:0vw 1vw;
+        margin-top: 0.25vw;
+        margin-bottom: 0.25vw;
+    }
+    .SuMenh-box2-content-right{
+        max-width: 100%;
+        /* margin-left: 0px; */
+        padding: 0vw 1vw;
+        margin-bottom: 0.25vw;
+    }
+    
+    .SuMenh-box2 h6{
+        font-size: 12px;
+    }
+    .QuyTac{
+        font-size: 12px;
+        margin: 6.5vw;
+    }
+    .QuyTac h6{
+
+    }
+    .QuyTac-title{
+        font-size: 15px;
+    }
+    .QuyTac-box2-content{
+        width: 100%;
+    }
+    .LienKet{
+        font-size: 12px;
+    }
+    .LienKet-title{
+        font-size: 15px;
+    }
+    .lienKet-box-title{
+        font-size: 15px;
+    }
+    
 }
