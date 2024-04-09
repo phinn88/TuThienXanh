@@ -188,7 +188,7 @@ footer {
 }
 .right-list-content-text{
     margin-top: 1.25vw;
-    margin-left: 1vw;
+    margin-left: 0.75vw;
 }
 
 .right p{
@@ -342,12 +342,15 @@ footer {
     .right-list-content-icon{
         line-height: 1.65em;
         margin-right: 1vw;
+        width: auto;
         /* padding-top: 10px; */
     }
     
     .end{
         color: white;
         display: flex;
+        font-size: 13px;
+        max-height: 18vw;
     }
     #hide-desktop-flex{
         display: flex;
@@ -366,6 +369,7 @@ footer {
     }
     .mobile-bottom img{
         margin: 2vw;
+        width: 16vw;
         height: 12vw;
     }
 }

@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trang chủ</title>
-    <link rel="stylesheet" href="../css/header_footer-test.css">
+    <link rel="stylesheet" href="../css/header_footer.css">
+    <link rel="stylesheet" href="../css/loader.css">
     <link rel="stylesheet" href="../css/trangchu.css">
     <link rel="stylesheet" href="../css/font.css">
     <!--Mont serrat font link-->
@@ -15,11 +16,14 @@
     <link rel="shortcut icon" type="image/png" href="../img/favicon.png"/>
 </head>
 <body>
+    <div class="load">
+        <img src="/img/loader.gif" alt="Thien Nguyen Xanh - loading">
+    </div>
     <!-- Header -->
     <header>
-        <div class="logo">
+        <a href="../html/trangchu.html" class="logo" >
             <img class="logo-img" src="../img/logo.png" alt="">
-        </div>
+        </a>
         <div class="menu">
             <ul class="menu-button">
                 <li href="" class="menu-button-content">
@@ -36,12 +40,45 @@
                 </li>
             </ul>
         </div>
+        <div class="header-nav">
+            <div class="search-nav-bar">
+                <i class="search-nav-bar-icon fa-solid fa-magnifying-glass fa-2xl"></i>
+            </div>
+            <label for="nav-mobile-input" class="nav-bar">
+                <i class="nav-bar-icon fa-solid fa-bars fa-2xl"></i> 
+            </label>
+        </div>
         <div class="search" >
             <div class="search-button">
-                <i class="search-icon fa-solid fa-magnifying-glass"></i>
+                <!-- <i class="search-icon fa-solid fa-magnifying-glass"></i> -->
+                <div class="search-bar" style="height: fit-content; padding-top: 0.5vw;">
+                    <i class="search-icon fa-solid fa-magnifying-glass"></i>
+                    <input id="search" type="search" placeholder=" Start typing to search..." style="border: none; outline: none;" />
+                  </div>
             </div>
         </div>
     </header>
+    <input type="checkbox" class="nav__input" id="nav-mobile-input">
+    
+    <nav class="nav__mobile">
+        <ul class="nav__mobile-list">
+            <li>
+                <a href="./trangchu.html" class="nav__mobile-link">Trang chủ</a>
+            </li>
+            <li>
+                <a href="./gioithieu.html" class="nav__mobile-link">Giới thiệu</a>
+            </li>
+            <li>
+                <a href="./duan.html" class="nav__mobile-link">Dự án</a>
+            </li>
+            <li>
+                <a href="./lienhe.html" class="nav__mobile-link">Liên hệ</a>
+            </li>
+        </ul>
+    </nav>
+    <label for="nav-mobile-input" class="nav__overlay"></label>
+    
+    
     <!-- Body -->
     <!-- An -->
 
@@ -67,39 +104,34 @@
 
         <div class="thongdiep-content">
             <div class="thongdiep-content-icon">
-                <img src="../img/greenHandShake.png">
+                <img class="thongdiep__img" src="../img/greenHandShake.png">
             </div>
             <div class="thongdiep-content-text">
                 <h6>ĐÙM BỌC</h6>
-                <p>Không để ai <br> ở lại phía sau!</p>
-            </div>
-            
-            
+                <p>Không để ai ở lại phía sau!</p>
+            </div>   
         </div>
         <div class="thongdiep-content-yeuthong">
             <div class="thongdiep-content-icon">
-                <img src="../img/greenHeart.png">
+                <img class="thongdiep__img" src="../img/greenHeart.png">
             </div>
             <div class="thongdiep-content-yeuthong-text">
                 <h6>YÊU THƯƠNG</h6>
-            <p>Yêu thương để lan <br>tỏa hạnh phúc!</p>
+            <p>Yêu thương để lan tỏa hạnh phúc!</p>
             </div>
             <!-- <h6>YÊU THƯƠNG</h6>
             <p>Yêu thương để lan <br>tỏa hạnh phúc!</p> -->
             
-        </div>
-            
-            
+        </div>   
         <div class="thongdiep-content">
             <div class="thongdiep-content-icon">
-                <img src="../img/handHoldHeart.png" alt="">
+                <img class="thongdiep__img" src="../img/handHoldHeart.png" alt="">
             </div>
             
             <div class="thongdiep-content-text">
                 <h6>SẺ CHIA</h6>    
                 <p>Cho đi là nhận lại!</p>
-            </div>
-            
+            </div> 
         </div>
         <!-- <img src="/img/greenHandShake.png" alt="" style="flex-grow: 2;">
         <img src="/img/greenHandShake.png" alt="">
@@ -146,14 +178,56 @@
             </div>
         </div>
     </div>
+    <!-- project-mobile -->
+    <div class="project-mobile">
+        <a href="./duan.html" class="project__box-mobile">
+            <img src="/img/TrangChu/project/traidat.jpg" alt="" class="project__img">
+            <div class="project__text-box-mobile">
+                <h1 class="project__title-mobile">TÌNH NGUYỆN XANH</h1>
+                <p class="project__content-mobile">Hành động vì một hành tinh xanh</p>
+            </div>
+        </a>
+        <a href="./duan-vongtaynhanai.html" class="project__box-mobile">
+            <img src="/img/TrangChu/project/namtayyeuthuong.png" alt="" class="project__img">
+            <div class="project__text-box-mobile">
+                <h1 class="project__title-mobile">VÒNG TAY NHÂN ÁI</h1>
+                <p class="project__content-mobile">Kết Nối Yêu Thương, Lan Tỏa Tình Người</p>
+            </div>
+        </a>
+        <a href="./duan-traitimchoem.html" class="project__box-mobile">
+                <img src="/img/TrangChu/project/traitimchoem.png" alt="" class="project__img">
+                <div class="project__text-box-mobile">
+                    <h1 class="project__title-mobile">TRÁI TIM CHO EM</h1>
+                <p class="project__content-mobile">Cùng nhau xây dựng tương lai tươi sáng cho em</p>
+                </div>
+        </a>
+        <a href="./duan-tuthientaybac.html" class="project__box-mobile">
+            <img src="/img/TrangChu/project/taybac.jpg" alt="" class="project__img">
+            <div class="project__text-box-mobile">
+                <h1 class="project__title-mobile">TỪ THIỆN TÂY BẮC</h1>
+                <p class="project__content-mobile">Đem yêu thương và hạnh phúc đến Tây Bắc </p>
+            </div>
+        </a>
+        <p href="" class="project__link-mobile">
+            <a href="./duan-cuutrolulut.html">Xem thêm...</a>
+        </p>
+    </div>
     <!-- Dang ky -->
     <div class="dangky">
-        <img class="dangky__img" src="../img/TrangChu/dk.png" alt="">
+        <img class="dangky__img" id="test" src="../img/TrangChu/dk.png" alt="">
         <div class="dangky__content">
             <img class="dangky__icon" src="../img/TrangChu/icondangky.png" alt="">
             <h1 class="dangky__title">BẠN MUỐN TRỞ THÀNH TÌNH NGUYỆN VIÊN</h1>
             <div href="" class="dangky__button">
                 <a class= "dangky__button-text" href="./dangky.html">ĐĂNG KÝ NGAY</a>
+            </div>
+        </div>
+    </div>
+    <div class="dangky-mobile">
+        <img class="dangky-mobile__img" src="../img/TrangChu/dkmobie.png" alt="">
+        <div class="dangky-mobile__content">
+            <div href="" class="dangky-mobile__button">
+                <a class= "dangky-mobile__button-text" href="./dangky.html">ĐĂNG KÝ NGAY ĐỂ TRỞ THÀNH TÌNH NGUYỆN VIÊN</a>
             </div>
         </div>
     </div>
@@ -204,11 +278,12 @@
     <!-- Footter -->
     <footer>
         <div class="left">
-            <img src="../img/LogoTrang.png" alt="", style="align-self: flex-start;">
+            <img id="hide-mobile" src="../img/LogoTrang.png" alt="", style="align-self: flex-start;">
             <div class="left-content">
                 <p class="left-content-text">VIET GREEN CHARITY - Love & Charity! Dream come true</p>
                 <p class="left-content-text">CLB THIỆN NGUYỆN XANH - TÌNH NGUYỆN XANH -QUỸ TỪ<br> THIỆN XANH</p>
                 <p class="left-content-text">CLB Từ thiện hoạt động không vụ lợi - Ứng xử từ thiện nhân <br> văn - Gieo yêu thương gặt phép màu</p>
+
             </div>
             <div class="left-icon">
                 <i class="left-icon-button fb fa-brands fa-facebook"></i>
@@ -216,13 +291,10 @@
                 <i class="left-icon-button tk fa-brands fa-tiktok"></i>
                 <i class="left-icon-button youtube fa-brands fa-brands fa-youtube"></i>
             </div>
+            
         </div>
         <div class="right">
             <ul class="right1">
-                <!-- <li class="right-list-content">
-                    <i class="right-list-content-icon fa-solid fa-phone"></i>
-                    04.66888684 | 0232.3868666
-                </li> -->
                 <div class="right-list-content">
                     
                     <i class="right-list-content-icon fa-solid fa-phone"></i>
@@ -245,9 +317,31 @@
                     <span class="right-list-content-text">
                         tuthienxanh@gmail.com
                     </span></li>
+                    
             </ul>
-            <p class="end">Giấy phép hoạt động trang thông tin điện tử tổng hợp số    /GP-STTTT, HCM ngày   /  /2013 <br> Giấy xác nhận cung cấp dịch vụ mạng xã hội trực tuyến số /GXN-TTĐT - Bộ TTTT, HN ngày   /   /2014</p>
+            <p id="hide-mobile" class="end">Giấy phép hoạt động trang thông tin điện tử tổng hợp số    /GP-STTTT, HCM ngày   /  /2013 <br> Giấy xác nhận cung cấp dịch vụ mạng xã hội trực tuyến số /GXN-TTĐT - Bộ TTTT, HN ngày   /   /2014</p>
+            <span class="right-span" style="width: 100vw; height:0.5vw"></span>
         </div>
+        <div id="hide-desktop-flex" class="mobile-bottom">
+            <img  src="../img/LogoTrang.png" alt="", style="align-self: flex-start;">
+            <p class="end">Giấy phép hoạt động trang thông tin điện tử tổng hợp số    /GP-STTTT, HCM ngày   /  /2013 Giấy xác nhận cung cấp dịch vụ mạng xã hội trực tuyến số /GXN-TTĐT - Bộ TTTT, HN ngày   /   /2014</p>
+        </div>
+        <!-- <p class="end">Giấy phép hoạt động trang thông tin điện tử tổng hợp số    /GP-STTTT, HCM ngày   /  /2013 <br> Giấy xác nhận cung cấp dịch vụ mạng xã hội trực tuyến số /GXN-TTĐT - Bộ TTTT, HN ngày   /   /2014</p> -->
     </footer>
 </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script>
+    $(window).on('load', function(event) {
+        $('body').removeClass('body');
+        $('.load').delay(100).fadeOut('fast');
+    });
+</script>
+<script src="../js/trangchu.js"></script>
+<!-- test script thay anh mot thanh phan trong trang chu -->
+<!-- <script>
+    function changeImgsrc(){
+        document.getElementById("test").src="../img/TrangChu/icondangky.png";
+    }
+    window.onload=changeImgsrc();
+</script> -->
 </html>
