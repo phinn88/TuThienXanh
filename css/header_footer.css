@@ -28,6 +28,7 @@ header {
     z-index: 3;
     /* opacity: 0.9; */
     overflow: hidden;
+    /* position: absolute; */
 }
 header a {
     /* margin: 0; */
@@ -197,6 +198,26 @@ footer {
     bottom: 0px;
 }
 /* Responsive Mobie */
+.nav__mobile {
+    display: none;
+    position: relative;
+    top: 100px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 6;
+}
+.nav__mobile-list {
+    margin-top: 100px;
+}
+.nav__mobile-link {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 8px 0;
+    font-size: 1.4rem;
+}
 /* PC */
 @media (min-width: 1024px) {
 
@@ -253,9 +274,7 @@ footer {
             margin: auto;
             position: relative;
     }
-    .nav__mobile {
-        display: none;
-    }
+    
     /* Footer */
     footer{
         flex-flow: column wrap;
