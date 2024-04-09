@@ -7,8 +7,8 @@
 }
 
 .slide{
-    margin-top: 50px;
-    min-height: 100vh;
+    margin-top: 0px;
+    max-height: min-content;
     width: 100%;
     background-image:url("../img/AnhTrch1_low_op.png");
     background-size: cover;
@@ -84,7 +84,8 @@
     width: 50%;
     content: "";
   }
-.thongdiep{
+.thongdiep {
+    margin-top: -10vh;
     width: 100%;
     /* margin: -50px 50px 50px; */
     display: flex;
@@ -93,13 +94,15 @@
     /* align-items: center; */
     /* justify-content: center; */
     /* justify-content: space-evenly; */
+    /* z-index: 4; */
 }
 .thongdiep-content{
     display: flex;
     flex-flow:column nowrap;
     flex:1 0;
     /* margin: 0px 150px; */
-    margin: 0vh 7.5vw 0vh 9vw;
+    padding: 3vh 4vw;
+    margin: 0vh 3vw 0vh 3vw;
     justify-content: space-evenly;
     text-align: center;
     background-color: white;
@@ -117,16 +120,16 @@
     padding: 10px 0px 10px;
 }
 .thongdiep-content h6{
-    font-size: 38px;
-    font-weight: 300;
-    margin: 10px 0px 10px;
+    font-size: 3.2vw;
+    font-weight: 600;
+    margin: 5px 0px 5px;
 }
 .thongdiep-content-icon{
     margin-top: 2.5vw;
 }
 .thongdiep-content p{
-    font-size: 26px;
-    font-weight: 200;
+    font-size: 3.0vw;
+    font-weight: 300;
     /* margin-bottom: 100px; */
 }
 .thongdiep-content-yeuthong{
@@ -135,9 +138,10 @@
     flex-flow:column nowrap;
     flex:1.2 0;
     justify-content: space-evenly;
-
+    padding: 3vh 4vw;
+    margin: 0vh 3vw 0vh 3vw;
     min-height: 28vw;
-    margin:-10vh 0px 11vh;
+    margin:-8vh 0px 11vh;
     background-color: #448332;
     border-radius: 5px;
 
@@ -149,24 +153,24 @@
     text-overflow: clip;
 }
 .thongdiep-content-yeuthong h6{
-    font-size: 36px;
-    font-weight: 300;
+    font-size: 3.2vw;
+    font-weight: 600;
+    margin: 5px 0px 5px;
     color: white;
-    margin: 0px 0px 0px;
     /* font-size: 1.2vw; */
 }
 .thongdiep-content-yeuthong p{
-    font-size: 26px;
+    font-size: 3vw;
+    font-weight: 300;
     color: white;
-    font-weight: 200;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 /* Phi */
 /* Project */
 .project__ {
     font-size: 2vw;
     font-weight: 600;
-    margin: 150px 0 30px 100px;
+    margin: 50px 0 30px 100px;
 }
 .project {
     width: 100%;
@@ -229,10 +233,12 @@
     margin-right: 0;
 }
 .project__content {
-    font-size: 20px;
-    /* text-align: center; */
+    font-size: 1.8vw;
+    text-align: center;
     margin-top: 8px;
     margin-bottom: 0;
+    margin-left: 2.2vw;
+    margin-right: 2.2vw;
 }
 .project__link {
     text-align: center;
@@ -257,34 +263,40 @@
 .dangky {
     position: relative;
     width: 100%;
+    /* min-height: fit-content;
+    max-height: min-content; */
 }
 .dangky__img {
+    display: block;
+    max-height: 100vh;
     width: 100%;
     /* height: 50%; */
 }
 .dangky__content {
     position: absolute;
     width: 20%;
-    top: 30%;
+    top: 18%;
     right: 10%;
     align-items: center;
     display: flex;
     flex-direction: column;
 }
 .dangky__icon {
+    display: block;
+    width: 8vw;
 
 }
 .dangky__title {
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 30px;
-    font-size: 30px;
+    font-size: 2vw;
     color: white;
     text-align: center;
 }
 .dangky__button {
     display: block;
     /* margin-top: 30px; */
-    padding: 26px 36px;
+    padding: 2vh 4vw;
     background-color: rgba(32,63,23,0.7);
     
     border-radius: 15px;
@@ -296,7 +308,7 @@
     text-decoration: none;
     margin-left: 0px;
     margin-right: 0px;
-    font-size: 25px;
+    font-size: 1.4vw;
 }
 .dangky__button-text:hover {
     color: azure;
@@ -309,7 +321,7 @@
 .donate {
     width: 100%;
     display: flex;
-    /* margin: 50px 100px; */
+    margin: 0;
 }
 .donate__info {
     width: 75%;
@@ -339,26 +351,53 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 70px;
+    margin-bottom: 3vh;
 }
 .donate__info-text {
-    font-size: 32px;
+    font-size: 2vw;
     margin: 0;
     text-align: justify;
 }
 .donate__qr-button {
     display: block;
-    margin-top: 36px;
-    font-size: 32px;
+    margin-top: 3vh;
+    font-size: 2vw;
     color: #000;
     background-color: rgba(68,131,50,0.45);
-    padding: 25px 0;
+    padding: 2vh 0;
     text-align: center;
     border-radius: 20px;
     width: 390px;
 }
 .dangky-mobile {
     display: none;
+}
+@media (min-width: 740px) and (max-width: 1024px) {
+    .slide-text-title {
+        font-size: 22px;
+    }
+    .slide-text-middle h{
+        font-size: 50px;
+    }
+    .slide-text-middle {
+        font-size: 20px;
+    }
+    .project__box {
+        height: 48vw;
+        min-height: fit-content;
+    }
+    .dangky__img {
+        max-height: 80vh;
+    }
+    .dangky__content {
+        width: 22%;
+    }
+    .dangky__button {
+        padding: 1.5vh 4vw;
+    }
+    .dangky__button-text {
+        font-size: 1.4vw;
+    }
 }
 @media (max-width: 739px) {
     /* Slide */
@@ -391,6 +430,7 @@
     /* Thong diep */
     .thongdiep {
         flex-direction: column;
+        margin-top: 0;
         /* margin: 0 25px; */
         width: 100%;
     }
@@ -398,12 +438,16 @@
         /* width: 100%; */
         margin: 20px 25px 20px 25px;
         background-color: #448332;
+        height: auto;
+        min-height: auto;
     }
     .thongdiep__img {
-        width: 30px;
+        width: 6.5vw;
         margin: 15px 0 0 0;
     }
     .thongdiep-content-yeuthong {
+        height: auto;
+        min-height: auto;
         /* margin: 20px 0 30px 0; */
         margin: 0 25px;
     }
@@ -411,12 +455,13 @@
         margin: 0;
     }
     .thongdiep-content-yeuthong-text h6 {
-        font-size: 15px;
+        font-size: 4vw;
         margin: 2px;
     }
     .thongdiep-content-yeuthong-text p {
-        font-size: 12px;
-        margin: 2px;
+        font-size: 3vw;
+        margin-top: 5px;
+        margin-bottom: 2px;
     }
     .thongdiep-content-yeuthong-text {
         padding: 0 0 15px 0;
@@ -426,12 +471,13 @@
         padding: 0 0 15px 0;
     }
     .thongdiep-content-text h6 {
-        font-size: 15px;
+        font-size: 4vw;
         margin: 2px;
     }
     .thongdiep-content-text p {
-        font-size: 12px;
-        margin: 2px;
+        font-size: 3vw;
+        margin-top: 5px;
+        margin-bottom: 2px;
     }
     /* Project */
     .project__ {
@@ -550,7 +596,7 @@
         /* align-items: center; */
     }
     .donate__info {
-        margin: 0px 25px;
+        margin: 0 4vw;
         width: auto;
         /* width: 100%; */
         /* align-items: center; */
