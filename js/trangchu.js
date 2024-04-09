@@ -1,21 +1,9 @@
-// let postsData = JSON.parse([ {"title": "","link": "","image": "","keywords": [""] }]);
-let postsData = "";
-const postsContainer = document.querySelector(".posts-container");
-const searchDisplay = document.querySelector(".search-display");
+// let articlesData = JSON.parse([ {"title": "","link": "","image": "","keywords": [""] }]);
+let articlesData = "";
+const articlesContainer = document.querySelector(".articles-container");
+const searchResultText = document.querySelector(".search-result-text");
 
-// fetch("../data/tintuc.json")
-// // .then((json) => console.log(json))
-// .then((json) => {
-//     console.log(json);
-//     let abc=JSON.parse(json);
-//     console.log(abc)
-//     console.log(typeof(json));
-//     // postsData = json;
-//     // console.log(postsData);
-//     // console.log(postsData[0])
-//     // console.log(typeof(postsData));
-//     // postsData.map((post) => createPost(post));
-// });
+
 function fetchJSONData() {
     fetch("../data/tintuc.json")
         .then((res) => {
@@ -27,66 +15,66 @@ function fetchJSONData() {
         })
         .then((data) => {
             console.log("dat",data)
-            postsData=data
-            console.log("postsData1",postsData)
-            // postsData.map((post) => createPost(post));
+            articlesData=data
+            console.log("articlesData1",articlesData)
+            // articlesData.map((article) => createArticle(article));
         })
         .catch((error) => 
                console.error("Unable to fetch data:", error));
 }
 
-postsData=fetchJSONData();
+articlesData=fetchJSONData();
 console.log("fetch JSON DATA",fetchJSONData());
-console.log("postsData",postsData)
-// console.log("type of ",typeof(postsData))
-// postsData.map((post) => createPost(post));
+console.log("articlesData",articlesData)
+// console.log("type of ",typeof(articlesData))
+// articlesData.map((article) => createArticle(article));
 
-const createPost = (postData) => {
-    const { title, link, image, keywords } = postData;
-    const post = document.createElement("div");
-    post.className = "post";
-    post.innerHTML = `
-        <a class="post-preview" href="${link}" target="_blank">
-          <img class="post-image" src="${image}">
+const createArticle = (articleData) => {
+    const { title, link, image, keywords } = articleData;
+    const article = document.createElement("div");
+    article.className = "article";
+    article.innerHTML = `
+        <a class="article-preview" href="${link}" target="_blank">
+          <img class="article-image" src="${image}">
         </a>
-        <div class="post-content">
-          <p class="post-title">${title}</p>
+        <div class="article-content">
+          <p class="article-title">${title}</p>
           
         </div>
     `;
-    postsContainer.append(post);
+    articlesContainer.append(article);
   };
   
-const handleSearchPosts = (query) => {
+const handleSearchArticles = (query) => {
     const searchQuery = query.trim().toLowerCase();
     
     if (searchQuery.length <= 1) {
-      resetPosts()
+      resetArticles()
       return
     }
     
-    let searchResults = [...postsData].filter(
-      (post) =>
-        post.keywords.some((category) => category.toLowerCase().includes(searchQuery)) ||
-        post.title.toLowerCase().includes(searchQuery)
+    let searchResults = [...articlesData].filter(
+      (article) =>
+        article.keywords.some((category) => category.toLowerCase().includes(searchQuery)) ||
+        article.title.toLowerCase().includes(searchQuery)
     );
     
     if (searchResults.length == 0) {
-      searchDisplay.innerHTML = "No results found"
+      searchResultText.innerHTML = "Không tìm thấy được kết quả nào"
     } else if (searchResults.length == 1) {
-      searchDisplay.innerHTML = `1 result found for your query: ${query}`
+      searchResultText.innerHTML = `Tìm thấy được 1 kết quả: ${query}`
     } else {
-      searchDisplay.innerHTML = `${searchResults.length} results found for your query: ${query}`
+      searchResultText.innerHTML = `${searchResults.length} kết quả tìm thấy được: ${query}`
     }
   
-    postsContainer.innerHTML = "";
-    searchResults.map((post) => createPost(post));
+    articlesContainer.innerHTML = "";
+    searchResults.map((article) => createArticle(article));
 };
   
-const resetPosts = () => {
-    searchDisplay.innerHTML = ""
-    postsContainer.innerHTML = "";
-    // postsData.map((post) => createPost(post));
+const resetArticles = () => {
+    searchResultText.innerHTML = ""
+    articlesContainer.innerHTML = "";
+    // articlesData.map((article) => createArticle(article));
   };
   
 const search = document.getElementById("search");
@@ -101,8 +89,14 @@ search.addEventListener(
     "input",
     (event) => {
       const query = event.target.value;
-      debounce(() => handleSearchPosts(query), 500);
+      debounce(() => handleSearchArticles(query), 500);
     },
     false
 );
+function hideSearchIcon(){
+    document.getElementById("search-icon").style.display="none";
+}
+function showSearchIcon(){
+    document.getElementById("search-icon").style.display="block"
+}
   

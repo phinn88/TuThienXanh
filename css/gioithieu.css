@@ -9,13 +9,13 @@ body {
 }
 /* SuMenh */
 .SuMenh {
-    margin: 0px 6.5vw;
+    margin: 128px 100px;
 }
 
 .SuMenh-title{
     color: #60B847;
-    font-size: 60px;
-    margin:0px 4vw 2vw 0px;
+    font-size: 40px;
+    /* margin: 0px 4vw 2vw 0px; */
 }
 .SuMenh-box1{
     color: #60B847;
@@ -68,6 +68,7 @@ body {
 }
 .SuMenh-box2-content-left{
     max-width: 60%;
+    margin-right: 35px;
 }
 .SuMenh-box2-content{
     font-size: 20px;
@@ -255,12 +256,12 @@ body {
         margin:0;
     }
     .LienKet-content {
-        width: 100%;
-        font-size: 14px;
+        width: 99%;
+        font-size: 3.26vw;
     }
     .DanhSach {
         flex-direction: column;
-        margin: 18px 22px 22px 18px;
+        margin: 6.5vw;
     }
     .DanhSach-box-title {
         font-size: 16px;
@@ -274,7 +275,7 @@ body {
         padding-inline-start: 0;
     }
     .DanhSach-content {
-        font-size: 14px;
+        font-size: 3.260vw;
         width: 100%;
         margin-left: 8px;
     }
