@@ -350,7 +350,7 @@ footer {
         color: white;
         display: flex;
         font-size: 13px;
-        max-height: 18vw;
+        
     }
     #hide-desktop-flex{
         display: flex;
@@ -370,6 +370,6 @@ footer {
     .mobile-bottom img{
         margin: 2vw;
         width: 16vw;
-        height: 12vw;
+        height: 12vh;
     }
 }
