@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Đăng ký gia nhập Thiện Nguyện Xanh</title>
     <link rel="stylesheet" href="../css/header_footer.css">
+    <link rel="stylesheet" href="../css/loader.css">
     <link rel="stylesheet" href="../css/dangky.css">
     <link rel="stylesheet" href="../css/font.css">
     <link rel="shortcut icon" type="image/png" href="../img/favicon.png"/>
@@ -152,11 +153,12 @@
       <p id="alert-loithoai"></p>
     </div>
 </div>
+</body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 <script>
     $(window).on('load', function(event) {
         $('body').removeClass('body');
-        $('.load').delay(1500).fadeOut('fast');
+        $('.load').delay(100).fadeOut('fast');
     });
 
     var today = new Date();
@@ -215,5 +217,4 @@
           }
       }
 </script>
-</body>
 </html>
