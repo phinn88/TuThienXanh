@@ -40,22 +40,30 @@
                 </li>
             </ul>
         </div>
-        <div class="header-nav">
-            <div class="search-nav-bar">
-                <i class="search-nav-bar-icon fa-solid fa-magnifying-glass fa-2xl"></i>
-            </div>
-            <label for="nav-mobile-input" class="nav-bar">
-                <i class="nav-bar-icon fa-solid fa-bars fa-2xl"></i> 
-            </label>
-        </div>
         <div class="search" >
             <div class="search-button">
                 <i class="search-icon fa-solid fa-magnifying-glass"></i>
             </div>
         </div>
+        <div class="header-nav">
+            <div class="search-mobile">
+                <input type="text" class="search-box-mobile" >
+                <label for="" class="search-nav-bar">
+                    <i class="search-nav-bar-icon fa-solid fa-magnifying-glass fa-2xl"></i>
+                </label>
+                <!-- <button class="close-btn"><i class="ph-x-bold"></i></button> -->
+            </div>
+            <label for="nav-mobile-input" class="nav-bar">
+                <i class="nav-bar-icon fa-solid fa-bars fa-2xl"></i> 
+            </label>
+        </div>
+        
+        
     </header>
     <input type="checkbox" class="nav__input" id="nav-mobile-input">
-    
+    <button class="close-btn"><i class="ph-x-bold"></i></button>
+    <!-- <input type="checkbox" class="search__input" id="search-mobile-input"> -->
+    <!-- <input type="checkbox" class="nav__input-search" id="nav-mobile-input-search"> -->
     <nav class="nav__mobile">
         <ul class="nav__mobile-list">
             <li>
@@ -73,7 +81,6 @@
         </ul>
     </nav>
     <label for="nav-mobile-input" class="nav__overlay"></label>
-    
     
     <!-- Body -->
     <!-- An -->
@@ -339,4 +346,5 @@
     }
     window.onload=changeImgsrc();
 </script>
+<script src="../js/header.js"></script>
 </html>
