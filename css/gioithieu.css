@@ -10,7 +10,6 @@ body {
 /* SuMenh */
 .SuMenh {
     margin: 0px 6.5vw;
-    /* height: 500px; */
 }
 
 .SuMenh-title{
@@ -22,6 +21,7 @@ body {
     color: #60B847;
     border-left:4px solid #60B847; 
     margin:2vw 0px;
+    text-align: justify;
 }
 .SuMenh-box1 h6 {
     color: #7B7777;
@@ -29,8 +29,6 @@ body {
     font-style: italic;
     font-weight:400; 
     margin: 0px 0px 0px 1vw;
-    /* border-top: 0px; */
-    /* border-right: 0px; */
 }
 .SuMenh-box1 span{
     color: #60B847;
@@ -55,7 +53,6 @@ body {
     color: white;
     background-color: #60B847;
     text-wrap: wrap;
-
 }
 .SuMenh-box2-title span{
     font-style:italic;
@@ -125,7 +122,6 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 .LienKet-title {
-    /* line-height: 40px; */
     font-size: 40px;
     color: #60B847;
 }
@@ -149,8 +145,6 @@ body {
 .LienKet-box-content {
     display: flex;
     margin: 10px 8px;
-    /* text-align: center; */
-    /* align-items: center; */
     width: 100%;
 }
 .LienKet-box-content-right {
@@ -219,6 +213,22 @@ body {
 
 }
 @media only screen and (max-width: 739px) {
+    
+}
+/* Responsive  */
+/* PC */
+@media (min-width: 1024px) {
+
+}
+/* Table */
+@media (min-width: 740px) and (max-width: 1023px) {
+
+}
+/* Mobile */
+@media (max-width: 739px) {
+    body{
+        font-size: 12px;
+    }
     .LienKet {
         margin: 0 16px;
     }
@@ -247,7 +257,6 @@ body {
     .LienKet-content {
         width: 100%;
         font-size: 14px;
-        /* margin-right: 30px; */
     }
     .DanhSach {
         flex-direction: column;
@@ -279,10 +288,10 @@ body {
         margin: 10vh 10vw;
     }
     .QuyTac-title {
-        font-size: 5.2vw;
+        font-size: 15px;
     }
     .QuyTac-box1 h6{
-        font-size: 3vw;
+        font-size: 12px;
     }
     .QuyTac-box2 {
         justify-content: center;
@@ -292,21 +301,6 @@ body {
     }
     #QuyTac-box2-ct2 {
         background-color: #feeeee;
-    }
-}
-/* Responsive  */
-/* PC */
-@media (min-width: 1024px) {
-
-}
-/* Table */
-@media (min-width: 740px) and (max-width: 1023px) {
-
-}
-/* Mobile */
-@media (max-width: 739px) {
-    body{
-        font-size: 12px;
     }
     .SuMenh-title{
         font-size: 15px;
@@ -334,11 +328,9 @@ body {
     }
     .SuMenh-box2-content-right{
         max-width: 100%;
-        /* margin-left: 0px; */
         padding: 0vw 1vw;
         margin-bottom: 0.25vw;
     }
-    
     .SuMenh-box2 h6{
         font-size: 12px;
     }
