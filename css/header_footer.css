@@ -67,11 +67,12 @@ header {
 .logo-img {
     width: auto;
     height: 80px;
-    margin: 0 0 0 10px;
+    margin: 0 0 0 20px;
 }
 .search {
     align-items: center;
     align-self:center;
+    display: flex;
 }
 .nav-bar {
     display: none;
@@ -86,14 +87,36 @@ header {
     width: 90%;
     margin: 0vw 1vw;
 }
-.search-button {
+.search-box {
     display: block;
-    width: 70%;
-    height: 35px;
-    background: white;
-    border-radius: 22.5px;
-    margin: auto;
-    position: relative;
+    position: absolute;
+    margin-right: 30px;
+    padding: 15px 5px;
+    border-radius: 20px;
+    border: none;
+    right: 0;
+    width: 20vw;
+}
+.search-box::placeholder {
+    margin-left: 10px;
+}
+.search-button {
+    /* width: 70%; */
+    /* right: 100px; */
+    width: 40px;
+    height: 100%;
+    background:none;
+    position: absolute;
+    border: none;
+    /* margin-right: 20px; */
+    right: 30px;
+    /* left: 10vw; */
+    cursor: pointer;
+    display: block;
+    color: white;
+}
+.search-button i {
+    color: #60B847;
 }
 .search-icon {
     font-size: 22px;
@@ -315,58 +338,85 @@ footer {
         margin-left: 2px;
         align-items: center;
     }
-    .nav-bar, .search-nav-bar {
+    .nav-bar {
         display: block;
         color: #448332;
         cursor: pointer;
     }
-    .search-nav-bar:hover {
+    /* .search-nav-bar:hover {
         color:beige;
-    }
-    .nav-bar:hover {
+    } */
+    /* .nav-bar:hover {
         color: white;
-    }
-    .search-nav-bar {
-        cursor: pointer;
-        position: absolute;
-        transition: all 0.25s ease;
-        margin-right: 10vw;
+    } */
+    .search-mobile-container {
+        display: flex;
+        position: relative;
+        /* align-items: center; */
+        width: 250px;
+        height: 40px;
     }
     .search-box-mobile {
-        width: 38px;
-        height: 38px;
-        padding: 15px;
-        border-radius: 25px;
-        background-color: #60B847;
+        position: absolute;
+        right: 40px;
+        width: 0;
+        height: 100%;
+        padding: 0 10px;
+        font-size: 16px;
+        border-radius: 18px;
+        background-color:white;
         color: #60B847;
         outline: none;
         border: none;
-        transition: width 0.25s ease;
+        transition: width 0.4s ease-in-out;
+        opacity: 0;
+        /* z-index: 2;    */
     }
     .search-box-mobile::placeholder {
         color: #60B847;
     }
-    .search-mobile {
-        display: flex;
-        align-items: center;
+    .search-box-mobile:focus {
+        border-color: #66cc75;
     }
-    .active .search-box-mobile::placeholder {
+    .search-mobile-btn {
+        position: absolute;
+        right: 0;
+        width: 40px;
+        height: 100%;
+        background:none;
+        margin-right: 5px;
+        /* border-radius: 20px; */
+        border: none;
+        /* color: #60B847; */
+        cursor: pointer;
+        /* transition: all 0.25s ease; */
+        /* margin-right: 10vw; */
+    }
+    /* .active .search-box-mobile::placeholder {
         color: dimgrey;
         font-size: 14px;
-    }
-    .active .search-box-mobile {
+    } */
+    /* .active .search-box-mobile {
         width: 67vw;
         background-color: white;
         margin-right: 1vw;
+    } */
+    /* .active .search-mobile-btn {
+        background: white;
+    } */
+    .search-box-mobile.active {
+        width: 70vw; /* Chiều rộng mới khi kích hoạt */
+        opacity: 1; /* Hiển thị input */
+        margin-right: -38px;
     }
-    .active .search-nav-bar {
+    /* .active .search-nav-bar {
         transform: translate(56vw,0.8px) scale(0.8);
         background-color: transparent;
-    }
-    .search-nav-bar, .nav-bar {
+    } */
+    .nav-bar {
         padding: 5px;
     }
-    .search-button {
+    /* .search-button {
         background-color:#60B847;
             width: 20px;
             height: 20px;
@@ -374,7 +424,7 @@ footer {
             border-radius: 22.5px;
             margin: auto;
             position: relative;
-    }
+    } */
     footer{
         flex-flow: column wrap;
         font-size: 14px;

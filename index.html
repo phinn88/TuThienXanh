@@ -36,25 +36,25 @@
                 </li>
             </ul>
         </div>
-        <div class="search" >
-            <div class="search-button">
-                <i class="search-icon fa-solid fa-magnifying-glass"></i>
+        <div class="search">
+            <input type="text" class="search-box" >
+            <button class="search-button">
+                <i class="fa-solid fa-magnifying-glassfa-solid fa-magnifying-glass fa-2xl"></i>
                 <!-- <div class="search-bar" style="height: fit-content; padding-top: 0.5vw;">
                     
                     <input id="search"
                     onfocus="OnSearchFocus()" onfocusout="OnSearchFocusOut()" 
                     type="text" placeholder=" Start typing to search..." style="border: none; outline: none;" />
                 </div> -->
-            </div>
+            </button>
         </div>
 
         <div class="header-nav">
-            <div class="search-mobile">
-                <input type="text" class="search-box-mobile" placeholder="Tìm kiếm" >
-                <label for="" class="search-nav-bar">
+            <div class="search-mobile-container">
+                <input type="text" class="search-box-mobile" placeholder="Tìm kiếm...">
+                <button onclick="toggleSearch()" class="search-mobile-btn">
                     <i class="search-nav-bar-icon fa-solid fa-magnifying-glass fa-2xl"></i>
-                </label>
-                <!-- <button class="close-btn"><i class="ph-x-bold"></i></button> -->
+                </button>
             </div>
             <label for="nav-mobile-input" class="nav-bar">
                 <i class="nav-bar-icon fa-solid fa-bars fa-2xl"></i> 
