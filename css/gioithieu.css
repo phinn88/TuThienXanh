@@ -213,6 +213,7 @@ body {
 /* Mobile */
 @media (max-width: 739px) {
     body{
+        margin-top: 80px;
         font-size: 12px;
     }
     .LienKet {
@@ -285,6 +286,9 @@ body {
     }
     #QuyTac-box2-ct2 {
         background-color: #feeeee;
+    }
+    .SuMenh {
+        margin: 5vh 10vw;
     }
     .SuMenh-title{
         font-size: 15px;

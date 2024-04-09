@@ -48,7 +48,7 @@ label {
 }
 input {
     width: 80%;
-    height: 22px;
+    height: 25px;
     max-width: 15vw;
     border-radius: 5px;
     background-color: #c0d4b7;
@@ -62,7 +62,7 @@ textarea {
 select {
     width: 50%;
     max-width: 8vw;
-    height: 22px;
+    height: 25px;
     border-radius: 5px;
     background-color: #c0d4b7;
 }
@@ -71,7 +71,7 @@ select {
     font-size: 1vw;
 }
 #submit-button {
-    height: 5vh;
+    height: 5.1vh;
     margin-left: 67.5%;
     margin-bottom: 2%;
     border-radius: 8px;

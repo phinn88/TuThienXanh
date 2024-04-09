@@ -274,7 +274,7 @@ body {
 }
 @media only screen and (max-width: 739px) {
   body {
-    margin-top: 80px;
+    margin-top: 60px;
   }
   .navi-bar {
     height: 40px;
