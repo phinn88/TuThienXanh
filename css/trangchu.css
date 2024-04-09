@@ -95,6 +95,8 @@
     /* justify-content: center; */
     /* justify-content: space-evenly; */
     /* z-index: 4; */
+    /* margin-left: 3vw; */
+    /* margin-right: 3vw; */
 }
 .thongdiep-content{
     display: flex;
@@ -102,7 +104,7 @@
     flex:1 0;
     /* margin: 0px 150px; */
     padding: 3vh 4vw;
-    margin: 0vh 3vw 0vh 3vw;
+    margin: 0vh 6vw 0vh 6vw;
     justify-content: space-evenly;
     text-align: center;
     background-color: white;
@@ -120,7 +122,7 @@
     padding: 10px 0px 10px;
 }
 .thongdiep-content h6{
-    font-size: 3.2vw;
+    font-size: 2.6vw;
     font-weight: 600;
     margin: 5px 0px 5px;
 }
@@ -128,7 +130,7 @@
     margin-top: 2.5vw;
 }
 .thongdiep-content p{
-    font-size: 3.0vw;
+    font-size: 1.8vw;
     font-weight: 300;
     /* margin-bottom: 100px; */
 }
@@ -139,12 +141,14 @@
     flex:1.2 0;
     justify-content: space-evenly;
     padding: 3vh 4vw;
-    margin: 0vh 3vw 0vh 3vw;
+    /* margin-left: 0;
+    margin-right: 0;
+
+    margin-top: -12vh; */
     min-height: 28vw;
     margin:-8vh 0px 11vh;
     background-color: #448332;
     border-radius: 5px;
-
     box-shadow: 0px 5px 5px #c2c1c1;
     text-align: center;
 }
@@ -153,17 +157,22 @@
     text-overflow: clip;
 }
 .thongdiep-content-yeuthong h6{
-    font-size: 3.2vw;
+    font-size: 2.6vw;
     font-weight: 600;
-    margin: 5px 0px 5px;
+    margin: 3px 0;
     color: white;
     /* font-size: 1.2vw; */
 }
 .thongdiep-content-yeuthong p{
-    font-size: 3vw;
+    font-size: 1.8vw;
     font-weight: 300;
     color: white;
     margin-bottom: 15px;
+}
+.thongdiep-content-yeuthong .thongdiep__img {
+    padding: 1.5vw;
+    background-color: #e8e8e8 ;
+    border-radius: 12px;
 }
 /* Phi */
 /* Project */
@@ -312,6 +321,7 @@
 }
 .dangky__button-text:hover {
     color: azure;
+    font-weight: 600;
 }
 /* Donate */
 .donate__title {
@@ -325,8 +335,8 @@
 }
 .donate__info {
     width: 75%;
-    margin-right: 80px;
-    margin-left: 80px;
+    margin-right: 5vw;
+    margin-left: 5vw;
 }
 .box-color1 {
     background-color: rgba(68,131,50,0.45) ;
@@ -345,14 +355,18 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right: 80px;
+    margin-right: 5vw;
 }
 .donate__qr-box {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 3vh;
+    max-width: 100%;
 }
+.donate__qr-img {
+    width: 100%;
+} 
 .donate__info-text {
     font-size: 2vw;
     margin: 0;
@@ -360,6 +374,7 @@
 }
 .donate__qr-button {
     display: block;
+    max-width: 100%;
     margin-top: 3vh;
     font-size: 2vw;
     color: #000;
@@ -398,6 +413,8 @@
     .dangky__button-text {
         font-size: 1.4vw;
     }
+    
+    
 }
 @media (max-width: 739px) {
     /* Slide */
@@ -441,7 +458,9 @@
         height: auto;
         min-height: auto;
     }
+    
     .thongdiep__img {
+        /* display: block; */
         width: 6.5vw;
         margin: 15px 0 0 0;
     }
@@ -622,13 +641,15 @@
         margin: 10px 0;
     }
     .donate__qr-box {
-        width: 50%;
+        width: 100%;
     }
     .donate__qr-img {
-        width: 80%;
+        width: 35%;
     }
     .donate__qr-button {
-        width: 80%;
+        width: 35%;
         font-size: 10px;
+        margin-top: 1.8vh;
+        padding: 1vh 0;
     }
 }
