@@ -253,6 +253,9 @@ footer {
             margin: auto;
             position: relative;
     }
+    .nav__mobile {
+        display: none;
+    }
     /* Footer */
     footer{
         flex-flow: column wrap;
