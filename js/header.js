@@ -6,8 +6,8 @@ const closeBtn = document.querySelector('.close-btn');
 searchBtn.addEventListener('click', function(){
   console.log(search.classList.contains('active'));
   if(search.classList.contains('active')){
-    search.classList.remove('active');
-    searchBox.value = '';
+        search.classList.remove('active');
+        searchBox.value = '';
   }
   else {
     search.classList.add('active');
