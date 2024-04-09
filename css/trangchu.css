@@ -64,7 +64,7 @@
     /* font-weight: 200; */
 }
 .slide-text-bottom{
-    font-size: 30px;
+    font-size: 26px;
     font-family:'Old Standard TT';
 }
 
@@ -98,11 +98,11 @@
     flex-flow:column nowrap;
     flex:1 0;
     /* margin: 0px 150px; */
-    margin: 0vh 10.5vw;
-    justify-content: flex-start;
+    margin: 0vh 7.5vw 0vh 9vw;
+    justify-content: space-evenly;
     text-align: center;
     background-color: white;
-    
+    min-height: 28vw;
     /* height: 100px; */
     /* border: 1px ridge black; */
     border-radius: 5px;
@@ -121,7 +121,7 @@
     margin: 10px 0px 10px;
 }
 .thongdiep-content-icon{
-    margin-top: 50px;
+    margin-top: 2.5vw;
 }
 .thongdiep-content p{
     font-size: 26px;
@@ -135,6 +135,7 @@
     flex:1.2 0;
     justify-content: space-evenly;
 
+    min-height: 28vw;
     margin:-10vh 0px 11vh;
     background-color: #448332;
     border-radius: 5px;
