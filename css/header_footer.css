@@ -101,7 +101,7 @@ header {
     margin-top: 1.8%;  
     line-height: 100%;
     margin-left: 85%;
-    margin-top: 6%;
+    /* margin-top: 6%; */
     position: absolute;
 }
 .header-nav {
