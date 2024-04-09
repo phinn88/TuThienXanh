@@ -68,15 +68,15 @@ select {
 }
 .date-note {
     margin-left: 65%;
-    font-size: 1.2vw;
+    font-size: 1vw;
 }
 #submit-button {
     height: 5vh;
-    margin-left: 68%;
+    margin-left: 67.5%;
     margin-bottom: 2%;
     border-radius: 8px;
     background-color: #c0d4b7;
-    font-size: 1.2vw;
+    font-size: 1vw;
     font-weight: bold;
     cursor: pointer;
     border: 2px solid transparent;
@@ -118,10 +118,11 @@ select {
 }
 @media only screen and (max-width: 739px) {
     body {
-        margin-top: 100px;
+        margin-top: 70px;
     }
     .container {
         border-radius: 20px;
+        width: 99%;
     }
     h1 {
         font-size: 4vw;
@@ -138,11 +139,8 @@ select {
     .form-section h2 {
         margin-left: 3%;
     }
-    label {
-        text-align: left;
-    }
     input {
-        width: 95%;
+        width: 97%;
         height: 20px;
         max-width: 20vw;
         border-radius: 4px;
