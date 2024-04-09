@@ -47,7 +47,7 @@ header {
 .menu-button-content-text {
     color: white;
     display: block;
-    font-size: 1.3vw;
+    font-size: 1.3em;
     font-weight: 520;
     text-align: center;
     padding: 0;
@@ -427,5 +427,10 @@ footer {
         margin: 2vw;
         width: 16vw;
         height: 12vh;
+    }
+}
+@media (min-width: 740px) and (max-width: 1024px) {
+    .menu-button-content-text {
+        font-size: 1em;
     }
 }
