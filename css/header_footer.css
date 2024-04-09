@@ -101,6 +101,10 @@ header a {
 .search-bar{
     height: 50px;
 }
+.search-bar input{
+    width: 90%;
+    margin: 0vw 1vw;
+}
 .search-button {
     display: block;
     width: 70%;
@@ -247,20 +251,61 @@ footer {
     margin-right: 1%;
 }
 .search-container{
-    /* padding-left: 30vw; */
+    background-color: #60B847;
+    margin-top: 10px;
+    /* padding-left: 20vw; */
+    color: white;
     position: fixed;
-    right: 10vw;
-    width: 50vw;
-    height: 50vw;
+    right: 2vw;
+    margin-right: 2vw;
+    width: 20vw;
+    /* height: 46vh; */
+    font-size:1.2vw ;
+    max-height: 45vh;
+    z-index: 6;
+    /* border: 1px solid black; */
+}
+.article-profile{
+    margin-right: 2vw;
+    background-color: #60B847;
+    position: fixed;
+
 }
 .articles-container{
-    width: 30vw;
-    max-height: 30vh;
-    overflow: clip;
+    /* width: 30vw; */
+    
+    max-height: 40vh;
+    overflow: scroll;
 }
 .article-image{
-    width: 30vw;
-    height: 30vh;
+    width: 20vw;
+    /* height: 28vh; */
+    border: 1px solid white;
+    border-top: none;
+}
+.article-content{
+    border: 1px solid white;
+    border-bottom: none;
+    padding: 0.5vw;
+    color: white;
+
+}
+.article-content:hover{
+    color: blue;
+}
+.article-preview{
+    text-decoration: none;
+    outline: none;
+}
+.article-preview:hover{
+    /* background-color: black; */
+}
+.article-title{
+    
+    z-index: 6;
+    margin: 0px;
+    /* border:10px solid #448332; */
+    /* height:10vh; */
 }
 
 

@@ -52,10 +52,10 @@
             <div class="search-button">
                 <!-- <i class="search-icon fa-solid fa-magnifying-glass"></i> -->
                 <div class="search-bar" style="height: fit-content; padding-top: 0.5vw;">
-                    <i id="search-icon" class="search-icon fa-solid fa-magnifying-glass"></i>
+                    <i id="hide-on-search-focus" class="search-icon fa-solid fa-magnifying-glass"></i>
                     <input id="search"
-                    onfocus="hideSearchIcon()" onfocusout="showSearchIcon()" 
-                    type="search" placeholder=" Start typing to search..." style="border: none; outline: none;" />
+                    onfocus="OnSearchFocus()" onfocusout="OnSearchFocusOut()" 
+                    type="text" placeholder=" Start typing to search..." style="border: none; outline: none;" />
                   </div>
                     
             </div>
@@ -84,19 +84,21 @@
     <label for="nav-mobile-input" class="nav__overlay"></label>
 
     <!-- Nơi hiện kết quả tìm kiếm -->
-    <div class="search-container" style="margin-top: 100px;">
+    <div class="search-container" >
         <div class="article-profile">
             <div class="search-result-text"></div>
             <div class="card-header">
-                <div class="card-header__title">avbcs</div>
+                <div class="card-header__title"></div>
             </div>
+            
             <div class="articles-container">
-                <a class="article-preview" href="../html/dangky.html" target="_blank">
-                    <img class="article-image" src="../img/tintuc/LuMuongLa.jpg">
-                  </a>
+                
                 <div class="article-content">
                     <p class="article-title">Lorem ipsum dolor sit.</p>
                 </div>
+                <a class="article-preview" href="../html/dangky.html" target="_blank">
+                    <img class="article-image" src="../img/tintuc/LuMuongLa.jpg">
+                  </a>
             </div>
         </div>  
     </div>

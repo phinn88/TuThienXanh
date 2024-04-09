@@ -2,7 +2,7 @@
 let articlesData = "";
 const articlesContainer = document.querySelector(".articles-container");
 const searchResultText = document.querySelector(".search-result-text");
-
+$(".search-container").hide()
 
 function fetchJSONData() {
     fetch("../data/tintuc.json")
@@ -35,12 +35,11 @@ const createArticle = (articleData) => {
     article.className = "article";
     article.innerHTML = `
         <a class="article-preview" href="${link}" target="_blank">
+            <div class="article-content">
+                <p class="article-title">${title}</p>
+            </div>
           <img class="article-image" src="${image}">
         </a>
-        <div class="article-content">
-          <p class="article-title">${title}</p>
-          
-        </div>
     `;
     articlesContainer.append(article);
   };
@@ -93,10 +92,14 @@ search.addEventListener(
     },
     false
 );
-function hideSearchIcon(){
-    document.getElementById("search-icon").style.display="none";
+function OnSearchFocus(){
+    // document.getElementById("hide-on-search-focus").style.display="none";
+    // document.getElementsyId("hide-on-search-focus").style.display="none";
+    $(".search-container").show()
+    $(".search-icon fa-solid fa-magnifying-glass").hide()
 }
-function showSearchIcon(){
-    document.getElementById("search-icon").style.display="block"
+function OnSearchFocusOut(){
+    $(".search-container").hide("slow","swing")
+    $(".search-icon fa-solid fa-magnifying-glass").show()
 }
   
