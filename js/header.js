@@ -14,8 +14,9 @@ searchBtn.addEventListener('click', function(){
     searchBox.focus();
   }
 })
-
 // searchBtn.addEventListener('click', function(){
 //   search.classList.remove('active');
 //   searchBox.value = '';
 // })
+
+
