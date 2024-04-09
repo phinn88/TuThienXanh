@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trang chủ</title>
     <link rel="stylesheet" href="../css/header_footer.css">
+    <link rel="stylesheet" href="../css/loader.css">
     <link rel="stylesheet" href="../css/trangchu.css">
     <link rel="stylesheet" href="../css/font.css">
     <!--Mont serrat font link-->
@@ -15,6 +16,9 @@
     <link rel="shortcut icon" type="image/png" href="../img/favicon.png"/>
 </head>
 <body>
+    <div class="load">
+        <img src="/img/loader.gif" alt="Thien Nguyen Xanh - loading">
+    </div>
     <!-- Header -->
     <header>
         <a href="../html/trangchu.html" class="logo" >
@@ -300,6 +304,13 @@
         <!-- <p class="end">Giấy phép hoạt động trang thông tin điện tử tổng hợp số    /GP-STTTT, HCM ngày   /  /2013 <br> Giấy xác nhận cung cấp dịch vụ mạng xã hội trực tuyến số /GXN-TTĐT - Bộ TTTT, HN ngày   /   /2014</p> -->
     </footer>
 </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script>
+    $(window).on('load', function(event) {
+        $('body').removeClass('body');
+        $('.load').delay(100).fadeOut('fast');
+    });
+</script>
 <!-- test script thay anh mot thanh phan trong trang chu -->
 <script>
     function changeImgsrc(){
