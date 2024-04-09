@@ -170,6 +170,13 @@ footer {
     right: 0px;
     padding-left: 3.6vw;
 }
+.right-list-content{
+    color:white;
+    font-size: 1.2vw;
+    display: grid;
+    grid-template-columns: 12% 88%;
+    justify-content: center;
+}
 .right-list-content-icon {
     font-size: 33px;
     color: #448332;
@@ -179,25 +186,17 @@ footer {
     margin: 0px 0vw;
     display: flex;
 }
-
-.right-list-content{
-    display: flex;
-    flex-flow: row nowrap;
-    color:white;
-    font-size: 1.2vw;
-
-}
 .right-list-content-text{
-    margin-top: 1.25vw;
-    margin-left: 1vw;
+    margin-top: 1.5vw;
+    margin-left: 0.75vw;
 }
-
 .right p{
     color: white;
     position: relative;
-    margin:40px 0px 0px 0px;
+    margin:10px 0px 0px 0px;
     bottom: 0px;
 }
+
 /* Responsive Mobie */
 .nav__mobile {
     display: block;
@@ -377,21 +376,22 @@ footer {
     .right-list-content{
         font-size: 14px;
         text-justify: distribute;
-
     }
     .right-list-content-text{
         margin-top: 1.5vw;
-        margin-left: 3vw;
+        margin-left: 2vw;
+        margin-right: 1vw;
     }
     .right-list-content-icon{
         line-height: 1.65em;
         margin-right: 1vw;
-        /* padding-top: 10px; */
+        width: auto;
     }
-    
     .end{
         color: white;
         display: flex;
+        font-size: 13px;
+        
     }
     #hide-desktop-flex{
         display: flex;
@@ -410,6 +410,7 @@ footer {
     }
     .mobile-bottom img{
         margin: 2vw;
-        height: 12vw;
+        width: 16vw;
+        height: 12vh;
     }
 }
