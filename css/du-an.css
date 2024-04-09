@@ -126,7 +126,6 @@ body {
   font-size: 1.5vw;
   line-height: 1.5vw;
   max-height: 3vw;
-  background-color: #b5e0a9;
   border-radius: 5px;
   overflow: hidden;
 }
@@ -275,7 +274,7 @@ body {
 }
 @media only screen and (max-width: 739px) {
   body {
-    margin-top: 80px;
+    margin-top: 60px;
   }
   .navi-bar {
     height: 40px;

@@ -18,7 +18,6 @@ header {
     position: fixed;
     top:0;
     z-index: 1;
-    /* opacity: 0.9; */
 }
 .menu-button {
     list-style: none;
@@ -27,8 +26,6 @@ header {
     line-height: 80px;
     margin: auto;
     flex-basis: 70%;
-}
-.menu-button-content {
 }
 .menu-button-content-text {
     color: white;
@@ -41,14 +38,8 @@ header {
 }
 .menu-button-content-text:hover {
     background-color: #448332;
-    /* background-color:white; */
-    /* font-weight: 680; */
-    /* color:#60B847; */
     color: lavenderblush;
     cursor: pointer;
-}
-.menu-button-content:hover {
-    /* background-color: white; */
 }
 .logo {
 }
@@ -111,7 +102,6 @@ footer {
     flex-wrap: wrap;
     flex: 2 100%;
     align-self: center;
-    /* max-width: 60%; */
 }
 .right1 {
     list-style: none;
@@ -187,7 +177,6 @@ footer {
     }
     .right-list-content-icon{
         line-height: 1.65em;
-        /* padding-top: 10px; */
     }
 
 }

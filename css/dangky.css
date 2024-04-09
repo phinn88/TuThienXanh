@@ -2,7 +2,8 @@ body {
     margin-top: 100px;
 }
 .container {
-    max-width: 920px;
+    width: 75%;
+    max-width: 1240px;
     margin: 1.5% auto;
     background-color: #477b2e;
     border-radius: 15px;
@@ -47,7 +48,7 @@ label {
 }
 input {
     width: 80%;
-    height: 22px;
+    height: 25px;
     max-width: 15vw;
     border-radius: 5px;
     background-color: #c0d4b7;
@@ -61,21 +62,21 @@ textarea {
 select {
     width: 50%;
     max-width: 8vw;
-    height: 22px;
+    height: 25px;
     border-radius: 5px;
     background-color: #c0d4b7;
 }
 .date-note {
     margin-left: 65%;
-    font-size: 1.2vw;
+    font-size: 1vw;
 }
 #submit-button {
-    height: 5vh;
-    margin-left: 68%;
+    height: 5.1vh;
+    margin-left: 67.5%;
     margin-bottom: 2%;
     border-radius: 8px;
     background-color: #c0d4b7;
-    font-size: 1.2vw;
+    font-size: 1vw;
     font-weight: bold;
     cursor: pointer;
     border: 2px solid transparent;
@@ -83,7 +84,7 @@ select {
 }
 #submit-button:hover {
     color: white;
-    background-color: yellowgreen;
+    background-color: #60B847;
     transform: translateY(-3px);
     box-shadow: 5px 10px 20px black;
 }
@@ -117,10 +118,11 @@ select {
 }
 @media only screen and (max-width: 739px) {
     body {
-        margin-top: 100px;
+        margin-top: 70px;
     }
     .container {
         border-radius: 20px;
+        width: 99%;
     }
     h1 {
         font-size: 4vw;
@@ -137,11 +139,8 @@ select {
     .form-section h2 {
         margin-left: 3%;
     }
-    label {
-        text-align: left;
-    }
     input {
-        width: 95%;
+        width: 97%;
         height: 20px;
         max-width: 20vw;
         border-radius: 4px;

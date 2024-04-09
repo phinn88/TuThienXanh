@@ -15,7 +15,6 @@ body {
 .SuMenh-title{
     color: #60B847;
     font-size: 40px;
-    /* margin: 0px 4vw 2vw 0px; */
 }
 .SuMenh-box1{
     color: #60B847;
@@ -38,7 +37,6 @@ body {
 .SuMenh-box2{
     display: flex;
     flex-flow: column nowrap; 
-    /* display: block; */
     border-style: solid;
     border-width: 4px;
     border-radius: 20px;
@@ -46,7 +44,6 @@ body {
     overflow: hidden;
 }
 .SuMenh-box2-title{
-    /* align-self: ; */
     font-size: 20px;
     padding: 0px 0px;
     text-align: center;
@@ -187,9 +184,6 @@ body {
     text-wrap: wrap;
     overflow: hidden;
 }
-.DanhSach-box-content {
-    
-}
 .DanhSach-content {
     font-size: 20px;
     color: #7B7777;
@@ -216,18 +210,10 @@ body {
 @media only screen and (max-width: 739px) {
     
 }
-/* Responsive  */
-/* PC */
-@media (min-width: 1024px) {
-
-}
-/* Table */
-@media (min-width: 740px) and (max-width: 1023px) {
-
-}
 /* Mobile */
 @media (max-width: 739px) {
     body{
+        margin-top: 80px;
         font-size: 12px;
     }
     .LienKet {
@@ -283,8 +269,6 @@ body {
         width: 100%;
         font-size: 12px;
     }
-    .DanhSach-end-paragraph {
-    }
     .QuyTac{
         margin: 10vh 10vw;
     }
@@ -302,6 +286,9 @@ body {
     }
     #QuyTac-box2-ct2 {
         background-color: #feeeee;
+    }
+    .SuMenh {
+        margin: 5vh 10vw;
     }
     .SuMenh-title{
         font-size: 15px;
@@ -338,9 +325,6 @@ body {
     .QuyTac{
         font-size: 12px;
         margin: 6.5vw;
-    }
-    .QuyTac h6{
-
     }
     .QuyTac-title{
         font-size: 15px;
