@@ -45,6 +45,7 @@ h1 {
 }
 label {
     text-align: left;
+    font-size: 2vw;
 }
 input {
     width: 80%;
