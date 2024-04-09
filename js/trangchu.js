@@ -1,4 +1,4 @@
-// let postsData = JSON.parse([ {"title": "","link": "","image": "","categories": [""] }]);
+// let postsData = JSON.parse([ {"title": "","link": "","image": "","keywords": [""] }]);
 let postsData = "";
 const postsContainer = document.querySelector(".posts-container");
 const searchDisplay = document.querySelector(".search-display");
@@ -42,7 +42,7 @@ console.log("postsData",postsData)
 // postsData.map((post) => createPost(post));
 
 const createPost = (postData) => {
-    const { title, link, image, categories } = postData;
+    const { title, link, image, keywords } = postData;
     const post = document.createElement("div");
     post.className = "post";
     post.innerHTML = `
@@ -51,13 +51,7 @@ const createPost = (postData) => {
         </a>
         <div class="post-content">
           <p class="post-title">${title}</p>
-          <div class="post-tags">
-            ${categories
-              .map((category) => {
-                return '<span class="post-tag">' + category + "</span>";
-              })
-              .join("")}
-          </div>
+          
         </div>
     `;
     postsContainer.append(post);
@@ -73,7 +67,7 @@ const handleSearchPosts = (query) => {
     
     let searchResults = [...postsData].filter(
       (post) =>
-        post.categories.some((category) => category.toLowerCase().includes(searchQuery)) ||
+        post.keywords.some((category) => category.toLowerCase().includes(searchQuery)) ||
         post.title.toLowerCase().includes(searchQuery)
     );
     
