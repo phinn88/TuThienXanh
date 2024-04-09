@@ -50,7 +50,7 @@
 .goiy__title {
     font-size: 24px;
     font-style: italic;
-    font-weight: 500;
+    font-weight: 600;
     color: #7B7777;
 }
 .tin {
@@ -131,7 +131,7 @@
 .moinhat__title {
     font-size: 24px;
     font-style: italic;
-    font-weight: 500;
+    /* font-weight: 500; */
     color: #7B7777;
 }
 .bold-text {

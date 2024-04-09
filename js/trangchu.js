@@ -99,7 +99,7 @@ function OnSearchFocus(){
     $(".search-icon fa-solid fa-magnifying-glass").hide()
 }
 function OnSearchFocusOut(){
-    $(".search-container").hide("slow","swing")
+    $(".search-container").hide("slow","linear")
     $(".search-icon fa-solid fa-magnifying-glass").show()
 }
   
