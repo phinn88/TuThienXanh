@@ -5,7 +5,6 @@
     min-width: 90vw;
     display: block;
 }
-
 .slide{
     margin-top: 0px;
     max-height: min-content;
@@ -16,12 +15,9 @@
     background-blend-mode:multiply;
     display: flex;
     flex-flow: column nowrap;
-    /* align-items: center; */
     justify-content: center;
     z-index: 3;
 }
-
-  
 .slide-text{
     margin:20vh 0vw 20vh 10vw;
     flex: 1 1;
@@ -38,10 +34,7 @@
     background: white;
 }
 .slide-text-title::after{
-    /* background: black;
-    height: 10px;
-    flex: 1;
-    content: '  '; */
+
     display: flex;
     float: right;
     margin-top: .6em; 
@@ -62,13 +55,11 @@
 }
 .slide-text-middle p{
     font-size: 32px;
-    /* font-weight: 200; */
 }
 .slide-text-bottom{
     font-size: 26px;
     font-family:'Old Standard TT';
 }
-
 .test{
     margin: 20px;
     overflow :hidden;
@@ -87,36 +78,25 @@
 .thongdiep {
     margin-top: -10vh;
     width: 100%;
-    /* margin: -50px 50px 50px; */
     display: flex;
-    /* height: 100px; */
     flex-flow: row nowrap; 
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* justify-content: space-evenly; */
-    /* z-index: 4; */
 }
 .thongdiep-content{
     display: flex;
     flex-flow:column nowrap;
     flex:1 0;
-    /* margin: 0px 150px; */
     padding: 3vh 4vw;
     margin: 0vh 3vw 0vh 3vw;
     justify-content: space-evenly;
     text-align: center;
     background-color: white;
     min-height: 28vw;
-    /* height: 100px; */
-    /* border: 1px ridge black; */
     border-radius: 5px;
     box-shadow: 0px 5px 5px #c2c1c1;
-    /* align-content: center; */
 }
 .thongdiep-content-text{
     align-items: flex-start;
     align-content:start;
-    /* margin-bottom: 100px; */
     padding: 10px 0px 10px;
 }
 .thongdiep-content h6{
@@ -130,7 +110,6 @@
 .thongdiep-content p{
     font-size: 3.0vw;
     font-weight: 300;
-    /* margin-bottom: 100px; */
 }
 .thongdiep-content-yeuthong{
 
@@ -157,7 +136,6 @@
     font-weight: 600;
     margin: 5px 0px 5px;
     color: white;
-    /* font-size: 1.2vw; */
 }
 .thongdiep-content-yeuthong p{
     font-size: 3vw;
@@ -174,12 +152,9 @@
 }
 .project {
     width: 100%;
-    /* height: 1000px; */
     margin: 7px 0px 14px 0px;
-    /* background-color: beige; */
 }
 .project__top {
-    /* margin-bottom: 14px; */
     width: 100%;
     display: flex;
 }
@@ -188,7 +163,6 @@
     display: flex;
 }
 .project__box {
-    /* background-color: #6CBD41; */
     width: 50%;
     margin: 7px;
     display: flex;
@@ -221,14 +195,12 @@
 }
 .project__title {
     font-size: 24px;
-    /* text-align: center; */
     margin-top: 50px;
     margin-bottom: 0;
     font-weight: 600;
 }
 .project__img {
     width: 35%;
-    /* align-items: center; */
     margin-left: 0;
     margin-right: 0;
 }
@@ -252,8 +224,6 @@
     color: rgb(235, 235, 235);
 }
 .project__link a:hover {
-    /* text-decoration: solid;
-    transition: cubic-bezier(0.19, 1, 0.22, 1); */
     color: rgb(205, 205, 205);
 }
 .project-mobile {
@@ -263,14 +233,11 @@
 .dangky {
     position: relative;
     width: 100%;
-    /* min-height: fit-content;
-    max-height: min-content; */
 }
 .dangky__img {
     display: block;
     max-height: 100vh;
     width: 100%;
-    /* height: 50%; */
 }
 .dangky__content {
     position: absolute;
@@ -295,13 +262,9 @@
 }
 .dangky__button {
     display: block;
-    /* margin-top: 30px; */
     padding: 2vh 4vw;
     background-color: rgba(32,63,23,0.7);
-    
     border-radius: 15px;
-   
-    /* overlay: none; */
 }
 .dangky__button-text {
     color: white;
@@ -330,11 +293,9 @@
 }
 .box-color1 {
     background-color: rgba(68,131,50,0.45) ;
-    /* width: 100%; */
 }
 .box-color2 {
     background-color: rgba(68,131,50,0.2) ;
-    /* width: 100%; */
 }
 .donate__info-box {
     margin-bottom: 30px;
@@ -410,7 +371,6 @@
     .slide-text {
         margin-top: 80px;
         margin-bottom: 53px;
-        /* min-height: 284px; */
     }
     .slide-text-title {
         font-size: 1.4588vw;
@@ -431,11 +391,9 @@
     .thongdiep {
         flex-direction: column;
         margin-top: 0;
-        /* margin: 0 25px; */
         width: 100%;
     }
     .thongdiep-content {
-        /* width: 100%; */
         margin: 20px 25px 20px 25px;
         background-color: #448332;
         height: auto;
@@ -448,7 +406,6 @@
     .thongdiep-content-yeuthong {
         height: auto;
         min-height: auto;
-        /* margin: 20px 0 30px 0; */
         margin: 0 25px;
     }
     .thongdiep-content-icon {
@@ -503,15 +460,7 @@
     }
     .project__box {
         width: 100%;
-        /* max-height: 30%; */
-        /* margin-left: 20px; */
-        /* margin-right: 20px; */
-        /* overflow: hidden; */
         margin: 0;
-        /* background-size: 132px; */
-        /* background-size: contain; */
-        /* height: min-content; */
-        /* background-size:auto; */
         background-image: none;
         height: fit-content;
     }
@@ -553,10 +502,8 @@
     /* Dk-mb */
     .dangky-mobile {
         display: block;
-        /* position: absolute; */
     }
     .dangky-mobile__img {
-        /* right: 0; */
         width: 100%;
         margin-left: 0;
         margin-right: 0;
@@ -591,15 +538,11 @@
     .donate {
         flex-direction: column;
         width: 100%;
-        /* margin: 10px; */
         margin: 0;
-        /* align-items: center; */
     }
     .donate__info {
         margin: 0 4vw;
         width: auto;
-        /* width: 100%; */
-        /* align-items: center; */
     }
     .donate__title {
         font-size: 18px;
