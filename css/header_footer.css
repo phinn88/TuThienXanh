@@ -100,7 +100,8 @@ header {
     color: #60B847;
     margin-top: 1.8%;  
     line-height: 100%;
-    margin-left: 88%;
+    margin-left: 85%;
+    /* margin-top: 6%; */
     position: absolute;
 }
 .header-nav {
@@ -354,7 +355,7 @@ footer {
         font-size: 14px;
     }
     .active .search-box-mobile {
-        width: 69vw;
+        width: 67vw;
         background-color: white;
         margin-right: 1vw;
     }

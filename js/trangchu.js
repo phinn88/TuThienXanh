@@ -1,4 +1,4 @@
-// let articlesData = JSON.parse([ {"title": "","link": "","image": "","keywords": [""] }]);
+
 let articlesData = "";
 const articlesContainer = document.querySelector(".articles-container");
 const searchResultText = document.querySelector(".search-result-text");
@@ -76,7 +76,7 @@ const resetArticles = () => {
     // articlesData.map((article) => createArticle(article));
   };
   
-const search = document.getElementById("search");
+const search2 = document.getElementById("search");
   
 let debounceTimer;
 const debounce = (callback, time) => {
@@ -84,7 +84,7 @@ const debounce = (callback, time) => {
     debounceTimer = window.setTimeout(callback, time);
 };
   
-search.addEventListener(
+search2.addEventListener(
     "input",
     (event) => {
       const query = event.target.value;
@@ -99,7 +99,7 @@ function OnSearchFocus(){
     $(".search-icon fa-solid fa-magnifying-glass").hide()
 }
 function OnSearchFocusOut(){
-    $(".search-container").hide("slow","swing")
+    $(".search-container").hide("slow","linear")
     $(".search-icon fa-solid fa-magnifying-glass").show()
 }
   

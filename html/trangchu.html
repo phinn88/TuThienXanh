@@ -43,8 +43,15 @@
         <div class="search" >
             <div class="search-button">
                 <i class="search-icon fa-solid fa-magnifying-glass"></i>
+                <!-- <div class="search-bar" style="height: fit-content; padding-top: 0.5vw;">
+                    
+                    <input id="search"
+                    onfocus="OnSearchFocus()" onfocusout="OnSearchFocusOut()" 
+                    type="text" placeholder=" Start typing to search..." style="border: none; outline: none;" />
+                </div> -->
             </div>
         </div>
+
         <div class="header-nav">
             <div class="search-mobile">
                 <input type="text" class="search-box-mobile" placeholder="Tìm kiếm" >
@@ -58,6 +65,25 @@
             </label>
         </div>
         
+        <!-- Nơi hiện kết quả tìm kiếm -->
+        <!-- <div class="search-container" >
+            <div class="article-profile">
+                <div class="search-result-text"></div>
+                <div class="card-header">
+                    <div class="card-header__title"></div>
+                </div>
+                
+                <div class="articles-container">
+                    
+                    <div class="article-content">
+                        <p class="article-title">Lorem ipsum dolor sit.</p>
+                    </div>
+                    <a class="article-preview" href="../html/dangky.html" target="_blank">
+                        <img class="article-image" src="../img/tintuc/LuMuongLa.jpg">
+                    </a>
+                </div>
+            </div>  
+        </div> -->
         
     </header>
     <input type="checkbox" class="nav__input" id="nav-mobile-input">
@@ -327,9 +353,13 @@
             <p class="end">Giấy phép hoạt động trang thông tin điện tử tổng hợp số /GP-STTTT, HCM ngày   /  /2013<br>Giấy xác nhận cung cấp dịch vụ mạng xã hội trực tuyến số /GXN-TTĐT - Bộ TTTT, HN ngày   /   /2014</p>
         </div>
     </footer>
+    
     <script src="../js/header.js"></script>
+    
 </body>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="../js/trangchu.js"></script>
 <script>
     $(window).on('load', function(event) {
         $('body').removeClass('body');
@@ -345,4 +375,3 @@
     }
     window.onload=changeImgsrc();
 </script>
-</html>

@@ -165,9 +165,10 @@ body {
     overflow: hidden;
 }
 .hot-news-right-article-img img {
-    width: 85%;
+    width: 99%;
     height: auto;
     margin: 1% auto 0 auto;
+    border-radius: 15px;
 }
 .hot-news-right-article-text {
     width: 100%;
