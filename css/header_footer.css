@@ -249,7 +249,23 @@ footer {
     transform: translateY(-2%);
     opacity: 1;
 }
-
+/* hiển thị kết quả tìm kiếm */
+.search-container{
+    /* padding-left: 30vw; */
+    position: fixed;
+    right: 10vw;
+    width: 50vw;
+    height: 50vw;
+}
+.articles-container{
+    width: 30vw;
+    max-height: 30vh;
+    overflow: clip;
+}
+.article-image{
+    width: 30vw;
+    height: 30vh;
+}
 
 @keyframes FadeIn {
     from {
