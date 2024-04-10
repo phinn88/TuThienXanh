@@ -11,11 +11,11 @@
     <link rel="shortcut icon" type="image/png" href="../../../img/favicon.png"/>
 </head>
 <body>
-    <!-- Header -->
-    <header>
-        <div class="logo">
+     <!-- Header -->
+     <header>
+        <a href="../../../index.html" class="logo" >
             <img class="logo-img" src="../../../img/logo.png" alt="">
-        </div>
+        </a>
         <div class="menu">
             <ul class="menu-button">
                 <li href="" class="menu-button-content">
@@ -32,12 +32,43 @@
                 </li>
             </ul>
         </div>
-        <div class="search" >
-            <div class="search-button">
-                <i class="search-icon fa-solid fa-magnifying-glass"></i>
+        <div class="search">
+            <input type="text" class="search-box" >
+            <button class="search-button">
+                <i class="fa-solid fa-magnifying-glassfa-solid fa-magnifying-glass fa-2xl"></i>
+            </button>
+        </div>
+
+        <div class="header-nav">
+            <div class="search-mobile-container">
+                <input type="text" class="search-box-mobile" placeholder="Tìm kiếm...">
+                <button onclick="toggleSearch()" class="search-mobile-btn">
+                    <i class="search-nav-bar-icon fa-solid fa-magnifying-glass fa-2xl"></i>
+                </button>
             </div>
+            <label for="nav-mobile-input" class="nav-bar">
+                <i class="nav-bar-icon fa-solid fa-bars fa-2xl"></i> 
+            </label>
         </div>
     </header>
+    <input type="checkbox" class="nav__input" id="nav-mobile-input">
+    <nav class="nav__mobile">
+        <ul class="nav__mobile-list">
+            <li>
+                <a href="../../../index.html" class="nav__mobile-link">Trang chủ</a>
+            </li>
+            <li>
+                <a href="../../../html/gioithieu.html" class="nav__mobile-link">Giới thiệu</a>
+            </li>
+            <li>
+                <a href="../../../html/duan.html" class="nav__mobile-link">Dự án</a>
+            </li>
+            <li>
+                <a href="../../../html/lienhe.html" class="nav__mobile-link">Liên hệ</a>
+            </li>
+        </ul>
+    </nav>
+    <label for="nav-mobile-input" class="nav__overlay"></label>
     <!-- Body -->
     <!-- <h6>Tin tức / Thiện nguyện Xanh / Tên bài viết</h6> -->
     <div class="body">
@@ -183,5 +214,6 @@
             <p class="end">Giấy phép hoạt động trang thông tin điện tử tổng hợp số /GP-STTTT, HCM ngày   /  /2013<br>Giấy xác nhận cung cấp dịch vụ mạng xã hội trực tuyến số /GXN-TTĐT - Bộ TTTT, HN ngày   /   /2014</p>
         </div>
     </footer>
+    <script src="../../../js/header.js"></script>
 </body>
 </html>
