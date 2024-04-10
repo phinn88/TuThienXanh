@@ -204,7 +204,8 @@ body {
   flex-direction: row;
   width: 100%;
   margin-top: 1%;
-  margin-left: 2%;
+  margin-left: 0;
+ 
 }
 .other-news-article {
   width: 20%;
