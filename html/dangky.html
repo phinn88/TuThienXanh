@@ -14,31 +14,62 @@
 <body>
     <!-- Menu -->
     <header>
-        <div class="logo">
+        <a href="../index.html" class="logo" >
             <img class="logo-img" src="../img/logo.png" alt="">
-        </div>
+        </a>
         <div class="menu">
             <ul class="menu-button">
                 <li href="" class="menu-button-content">
                     <a class="menu-button-content-text" href="../index.html">TRANG CHỦ</a>
                 </li>
                 <li class="menu-button-content">
-                    <a class="menu-button-content-text" href="./gioithieu.html">GIỚI THIỆU</a>
+                    <a class="menu-button-content-text" href="../html/gioithieu.html">GIỚI THIỆU</a>
                 </li>
                 <li class="menu-button-content">
-                    <a class="menu-button-content-text" href="./duan.html">DỰ ÁN</a>
+                    <a class="menu-button-content-text" href="../html/duan.html">DỰ ÁN</a>
                 </li>
                 <li class="menu-button-content">
-                    <a class="menu-button-content-text" href="./lienhe.html">LIÊN HỆ</a>
+                    <a class="menu-button-content-text" href="../html/lienhe.html">LIÊN HỆ</a>
                 </li>
             </ul>
         </div>
-        <div class="search" >
-            <div class="search-button">
-                <i class="search-icon fa-solid fa-magnifying-glass"></i>
+        <div class="search">
+            <input type="text" class="search-box" >
+            <button class="search-button">
+                <i class="fa-solid fa-magnifying-glassfa-solid fa-magnifying-glass fa-2xl"></i>
+            </button>
+        </div>
+
+        <div class="header-nav">
+            <div class="search-mobile-container">
+                <input type="text" class="search-box-mobile" placeholder="Tìm kiếm...">
+                <button onclick="toggleSearch()" class="search-mobile-btn">
+                    <i class="search-nav-bar-icon fa-solid fa-magnifying-glass fa-2xl"></i>
+                </button>
             </div>
+            <label for="nav-mobile-input" class="nav-bar">
+                <i class="nav-bar-icon fa-solid fa-bars fa-2xl"></i> 
+            </label>
         </div>
     </header>
+    <input type="checkbox" class="nav__input" id="nav-mobile-input">
+    <nav class="nav__mobile">
+        <ul class="nav__mobile-list">
+            <li>
+                <a href="../index.html" class="nav__mobile-link">Trang chủ</a>
+            </li>
+            <li>
+                <a href="../html/gioithieu.html" class="nav__mobile-link">Giới thiệu</a>
+            </li>
+            <li>
+                <a href="../html/duan.html" class="nav__mobile-link">Dự án</a>
+            </li>
+            <li>
+                <a href="../html/lienhe.html" class="nav__mobile-link">Liên hệ</a>
+            </li>
+        </ul>
+    </nav>
+    <label for="nav-mobile-input" class="nav__overlay"></label>
     <!-- Body -->
     <div class="body">
         <div class="load">
@@ -168,6 +199,7 @@
       <p id="alert-loithoai"></p>
     </div>
 </div>
+<script src="../js/header.js"></script>
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 <script>
