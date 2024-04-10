@@ -264,8 +264,9 @@
     /* text-decoration: solid;
     transition: cubic-bezier(0.19, 1, 0.22, 1); */
     /* color: rgb(205, 205, 205); */
-    color: #448332;
-    font-weight: 500;
+    color:white;
+    text-shadow: #60B847 1px 1px;
+    font-weight: 650;
 }
 .project-mobile {
     display: none;
