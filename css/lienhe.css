@@ -37,9 +37,11 @@ body {
 }
 .video-name a:link {
     text-decoration: none;
+    color: black;
 }
 .video-name a:visited {
     text-decoration: none;
+    color: black;
 }
 .video-name a:hover {
     color: #60B847;
@@ -48,6 +50,7 @@ body {
 }
 .video-name a:active {
     text-decoration: none;
+    color: blue;
 }
 .video-contact video {
     display: block;
