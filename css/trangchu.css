@@ -55,6 +55,7 @@
     padding: 2vw;
     font-family:'Old Standard TT';
     justify-content:space-around;
+    margin-bottom: 2vh;
 }
 .slide-text-middle h{
     font-size: 70px;
@@ -65,8 +66,15 @@
     /* font-weight: 200; */
 }
 .slide-text-bottom{
+    /* margin-top: vh; */
     font-size: 26px;
     font-family:'Old Standard TT';
+    text-decoration: none;
+    color: white;
+}
+.slide-text-bottom:hover {
+    font-weight: 600;
+    /* text-shadow: #000 1px 1px; */
 }
 
 .test{
