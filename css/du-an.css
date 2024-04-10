@@ -295,12 +295,12 @@ body {
   }
   .scroll-buttons {
     position: absolute;
-    top: 85%;
+    top: 50%;
     width: 100%;
     transform: translateY(-50%);
     display: flex;
-    /* justify-content: space-between; */
-    justify-content: center;
+    justify-content: space-between;
+    /* justify-content: center; */
   }
   .scroll-left {
     cursor: pointer;
