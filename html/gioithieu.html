@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../css/header_footer.css">
     <link rel="stylesheet" href="../css/loader.css">
     <link rel="stylesheet" href="../css/gioithieu.css">
+    <link rel="stylesheet" href="../css/trangchu.css">
     <link rel="stylesheet" href="../css/font.css">
     <link rel="stylesheet" href="../img/icon/fontawesome-free-6.5.1-web/css/all.min.css">
     <link rel="shortcut icon" type="image/png" href="../img/favicon.png"/>
@@ -17,9 +18,9 @@
     </div>
         <!-- Menu -->
         <header>
-            <div class="logo">
+            <a href="../index.html" class="logo" >
                 <img class="logo-img" src="../img/logo.png" alt="">
-            </div>
+            </a>
             <div class="menu">
                 <ul class="menu-button">
                     <li href="" class="menu-button-content">
@@ -41,8 +42,38 @@
                     <i class="search-icon fa-solid fa-magnifying-glass"></i>
                 </div>
             </div>
+            <div class="header-nav">
+                <div class="search-mobile">
+                    <input type="text" class="search-box-mobile" placeholder="Tìm kiếm" >
+                    <label for="" class="search-nav-bar">
+                        <i class="search-nav-bar-icon fa-solid fa-magnifying-glass fa-2xl"></i>
+                    </label>
+                </div>
+                <label for="nav-mobile-input" class="nav-bar">
+                    <i class="nav-bar-icon fa-solid fa-bars fa-2xl"></i> 
+                </label>
+            </div>
         </header>
         </header>
+        <input type="checkbox" class="nav__input" id="nav-mobile-input">
+    <button class="close-btn"><i class="ph-x-bold"></i></button>
+    <nav class="nav__mobile">
+        <ul class="nav__mobile-list">
+            <li>
+                <a href="../index.html" class="nav__mobile-link">Trang chủ</a>
+            </li>
+            <li>
+                <a href="../html/gioithieu.html" class="nav__mobile-link">Giới thiệu</a>
+            </li>
+            <li>
+                <a href="../html/duan.html" class="nav__mobile-link">Dự án</a>
+            </li>
+            <li>
+                <a href="../html/lienhe.html" class="nav__mobile-link">Liên hệ</a>
+            </li>
+        </ul>
+    </nav>
+    <label for="nav-mobile-input" class="nav__overlay"></label>
         <!-- Body -->
         <div class="SuMenh">
             <h1 class="SuMenh-title">Sứ mệnh cao đẹp</h1>
@@ -202,6 +233,8 @@
             <p class="end">Giấy phép hoạt động trang thông tin điện tử tổng hợp số /GP-STTTT, HCM ngày   /  /2013<br>Giấy xác nhận cung cấp dịch vụ mạng xã hội trực tuyến số /GXN-TTĐT - Bộ TTTT, HN ngày   /   /2014</p>
         </div>
     </footer>
+    <script src="../js/header.js"></script>
+    <script src="../js/trangchu.js"></script>
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 <script>
