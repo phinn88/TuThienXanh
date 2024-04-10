@@ -553,6 +553,7 @@
     .project__img {
         width: 130px;
         height: 130px;
+        object-fit: cover;
     }
     .project__box-mobile {
         display: flex;
@@ -593,7 +594,7 @@
     }
     .dangky-mobile__button {
         background-color: #448332;
-        padding: 5px 10px;
+        padding: 6px 10px;
         width: 60%;
         display: flex;
         align-items: center;
@@ -602,11 +603,11 @@
         text-align: center;
         border-radius: 10px;
         position: relative;
-        bottom: 13vw;
+        bottom: 15vw;
         margin-left: 21%;
     }
     .dangky-mobile__button-text {
-        font-size: 2.5vw;
+        font-size: 3vw;
         text-decoration: none;
         color: white;
         font-weight: 500;
