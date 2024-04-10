@@ -151,7 +151,7 @@ footer {
 .left-content-text {
     font-size: 1.2vw;
     color: white;
-    margin: 16px 0px;
+    margin: 1vw 0px;
     text-align: justify;
     padding-bottom: 1vh;
 }
@@ -180,8 +180,8 @@ footer {
     color:white;
     font-size: 1.2vw;
     display: grid;
-    grid-template-columns: 11% 89%;
-    padding-bottom: 1vh;
+    grid-template-columns: 10% 90%;
+    padding-bottom: 0.5vh;
     justify-content: center;
     align-items: center;
 }
@@ -192,7 +192,7 @@ footer {
     height: auto;
 }
 .right-list-content-text{
-    padding-left: 0.8vw;
+    padding-left: 1vw;
 }
 .right p{
     color: white;
@@ -438,28 +438,40 @@ footer {
     .right{
         order: 1;
     }
+    .right1 {
+        margin-right: 4vw;
+    }
+    .left-content {
+        margin-right: 4vw;
+    }
     .left-content-text{
-        font-size: 14px;
+        font-size: 1em;
     }
     .right-list-content{
-        font-size: 14px;
+        font-size: 1.2em;
+        margin-left: 2vw;
     }
-    .right-list-content-text{
-        margin-left: 1vw;
+    .right-list-content-text {
+        margin-left: 2.5vw;
+        font-size: 1em;
     }
     .right-list-content-icon{
         line-height: 1.65em;
         margin: 1vw 0;
-        width: auto;
-    }
+        /* width: auto; */
+        font-size: 1.4em;   
+     }
     .end{
         color: white;
         display: flex;
-        font-size: 13px;
-        margin-right: 2%;
+        font-size: 0.72em;
+        text-align: justify;
+        margin: 2vh 4vw 2vh 2vw;
+        width: 60%;
     }
     #hide-desktop-flex{
         display: flex;
+        width: 100%;
     }
     #hide-mobile{
         display: none;
@@ -474,9 +486,10 @@ footer {
         flex-flow: row nowrap;
     }
     .mobile-bottom img{
-        margin: 2vw;
-        width: 16vw;
-        height: 12vh;
+        display: block;
+        margin: 2vh 2vw 2vh 4vw;
+        width: 40%;
+        height: auto;
     }
 }
 @media (min-width: 740px) and (max-width: 1024px) {
