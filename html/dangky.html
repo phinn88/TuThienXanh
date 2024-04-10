@@ -79,8 +79,8 @@
         <div class="container">
             <p class="para1">Trên tinh thần tự nguyện và mong muốn giúp đỡ những hoàn cảnh khó khăn. Căn cứ vào Quy tắc hoạt động của CLB, tôi nhận thấy bản thân mình phù hợp để tham gia CLB Thiện Nguyện Xanh. Vì vậy, tôi kính đề nghị Ban Chủ nhiệm CLB cho phép tôi trở thành thành viên của Thiện Nguyên Xanh.
             </p>  
-            <!-- action="./trangchu.html" -->
-            <form class="form" action="#" onsubmit="return gui_phan_hoi(event)">
+            <!-- action="./trangchu.html or #" -->
+            <form class="form" action="../index.html" onsubmit="return gui_phan_hoi(event)">
                 <div class="form-section">
                     <h2>Phần 1. Giới thiệu</h2>
                     <div class="Form-Section-Infor">
@@ -226,7 +226,7 @@
     }
 
     function gui_phan_hoi(event) {
-        event.preventDefault();
+        // event.preventDefault();
         var fullname = document.getElementById("fullname").value;
         var birthdate = new Date(document.getElementById("birthdate").value);
         var phone = document.getElementById("phone").value;
@@ -253,15 +253,18 @@
               var thongbao = "Chúc mừng bạn " + fullname + " gửi đơn thành công. ";
               var pthucLienHe = document.getElementById("contact").value;
               if (pthucLienHe === "Số điện thoại") {
-                  thongbao += "Chúng tôi sẽ sớm gửi phản hồiđến số điện thoại: " + phone + ".";
+                  thongbao += "Chúng tôi sẽ sớm gửi phản hồi đến số điện thoại: " + phone + ".";
               } else {
                   thongbao += "Chúng tôi sẽ sớm gửi phản hồi đến email: " + email + ".";
               }
               customAlert(thongbao, 3000).then(() => {
                 location.reload();
               });
-              return true;
-          }
+            setTimeout(function() {
+                return true;
+                window.location.href = event.target.action;
+            }, 5000);
+        }
       }
 </script>
 </html>
