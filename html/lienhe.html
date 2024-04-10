@@ -17,6 +17,8 @@
         <img src="../img/loader.gif" alt="Thien Nguyen Xanh - loading">
     </div>
     <!-- Menu -->
+</div>
+<!-- Menu -->
     <header>
         <a href="../index.html" class="logo" >
             <img class="logo-img" src="../img/logo.png" alt="">
@@ -37,18 +39,19 @@
                 </li>
             </ul>
         </div>
-        <div class="search" >
-            <div class="search-button">
-                <i class="search-icon fa-solid fa-magnifying-glass"></i>
-            </div>
+        <div class="search">
+            <input type="text" class="search-box" >
+            <button class="search-button">
+                <i class="fa-solid fa-magnifying-glassfa-solid fa-magnifying-glass fa-2xl"></i>
+            </button>
         </div>
 
         <div class="header-nav">
-            <div class="search-mobile">
-                <input type="text" class="search-box-mobile" placeholder="Tìm kiếm" >
-                <label for="" class="search-nav-bar">     
+            <div class="search-mobile-container">
+                <input type="text" class="search-box-mobile" placeholder="Tìm kiếm...">
+                <button onclick="toggleSearch()" class="search-mobile-btn">
                     <i class="search-nav-bar-icon fa-solid fa-magnifying-glass fa-2xl"></i>
-                </label>
+                </button>
             </div>
             <label for="nav-mobile-input" class="nav-bar">
                 <i class="nav-bar-icon fa-solid fa-bars fa-2xl"></i> 
@@ -56,7 +59,6 @@
         </div>
     </header>
     <input type="checkbox" class="nav__input" id="nav-mobile-input">
-    <button class="close-btn"><i class="ph-x-bold"></i></button>
     <nav class="nav__mobile">
         <ul class="nav__mobile-list">
             <li>
