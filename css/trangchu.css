@@ -263,7 +263,9 @@
 .project__link a:hover {
     /* text-decoration: solid;
     transition: cubic-bezier(0.19, 1, 0.22, 1); */
-    color: rgb(205, 205, 205);
+    /* color: rgb(205, 205, 205); */
+    color: #448332;
+    font-weight: 500;
 }
 .project-mobile {
     display: none;
